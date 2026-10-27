@@ -5,7 +5,7 @@ Bu notu okuyan Claude: Bu dosya, "MICE Xperience Global" sayfasını oluşturan 
 `git clone -b kaynak https://github.com/atesakkus-gbt/gbt-mice-xperience.git mice`
 (Depo oturuma ekli değilse önce add_repo ile `push` erişimiyle ekle.)
 
-Son güncelleme: 27.10.2026
+Son güncelleme: 27.10.2026 (Türkiye sayfası başladı, bkz. bölüm 8)
 
 ---
 
