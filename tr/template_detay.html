@@ -1,6 +1,9 @@
 {{HEAD}}
 <style>
 {{GLOBAL_CSS}}
+.hero-vis{display:grid;gap:8px}
+.ai-note{font-size:12px;color:var(--muted);text-align:right}
+footer .ai-note{flex-basis:100%;text-align:left;margin:0}
 </style>
 {{BODY_OPEN}}
 <div class="topbar"><div class="wrap">
@@ -37,7 +40,7 @@
       <a class="btn btn-line" href="#program">[[Örnek Programı Görün||See the Sample Programme]]</a>
     </div>
   </div>
-  <figure class="hero-img"><img src="img/{{KAPAK}}.webp" width="1200" height="750" {{KAPAK_ALT}} fetchpriority="high"></figure>
+  <div class="hero-vis"><figure class="hero-img"><img src="img/{{KAPAK}}.webp" width="1200" height="750" {{KAPAK_ALT}} fetchpriority="high"></figure><p class="ai-note">[[Görseller temsilidir ve yapay zekâ ile üretilmiştir.||Images are illustrative and AI-generated.]]</p></div>
 </div></section>
 
 <section class="section program" id="program"><div class="wrap">
@@ -109,6 +112,7 @@
   <img class="logo" src="img/logo-gbt-mice.png" width="{{LOGO_W}}" height="{{LOGO_H}}" alt="Golden Bay Tour Corporate MICE" loading="lazy">
   <span class="motto">[[Kurumsal Seyahatin Gücü||Kurumsal Seyahatin Gücü · The Power of Corporate Travel]]</span>
   <span><a href="mailto:event@goldenbaytour.com.tr?subject={{MAIL_KONU}}">event@goldenbaytour.com.tr</a> · <a href="tel:+908502023901">+90 850 202 3901</a> · <a href="https://kurumsal.goldenbaytour.com" target="_blank" rel="noopener">kurumsal.goldenbaytour.com</a></span>
+  <p class="ai-note">[[Görseller temsilidir ve yapay zekâ ile üretilmiştir.||Images are illustrative and AI-generated.]]</p>
 </div></footer>
 <div class="sticky-cta"><a href="#talep">[[Kurumunuza Özel Program İsteyin||Request a Tailor-made Programme]]</a></div>
 {{BODY_CLOSE}}
