@@ -78,3 +78,17 @@ OG paylaşım görseli: `img/og-mice-xperience-global.jpg` (1200×630, gala gör
 - Aynı tasarım ve aynı panel yöntemi; ayrı slug(lar) (ör. `mice-xperience-turkiye` ve `mice-xperience-turkey` ya da tek sayfada dil düğmesi — karar verilecek).
 - Görseller aynı depoya, ayrı önek ile (ör. `tr-…`); Canva klasör numarası 34'ten devam.
 - Vize bilgisi bu sayfada yabancı misafir bakış açısıyla olacağından ayrıca ele alınmalı.
+
+---
+
+## 8. MICE Xperience Türkiye (inbound, TR + EN) – 27.10.2026'da başladı
+
+- **Karar**: tek sayfa + TR/EN düğmesi (slug önerisi `mice-xperience-turkiye`); `?lang=en` İngilizce açar, seçim tarayıcıda hatırlanır, yoksa tarayıcı diline göre.
+- **Takvim**: Aralık 2026 – Aralık 2027, 13 ay × 2 = 26 program. Kategoriler: `sehir` Şehir & Kongre, `kiyi` Kıyı & Resort, `miras` Kültür & Doğa, `mavi` Yat & Mavi Yolculuk.
+- **Yılbaşı bölümü** (Aralık önceliği; lacivert bant, geri sayım, Eylül–Aralık arası görünür, diğer aylarda kendiliğinden gizlenir): 4 konsept — Boğaz'da Yılbaşı Galası (yurtdışı gruplar), Özel Yatta Geri Sayım, Kapadokya'da Beyaz Yılbaşı, Kurumsal Yılbaşı Partisi (Türkiye'deki şirketler, Aralık boyunca). Hedef: hem yabancı hem Türk firmalar. Farklılaştırıcılar: 3 iş gününde teklif, mekân opsiyonu hemen, tek ekip.
+- **Detayı hazır 6 sayfa**: yilbasi-istanbul-bogaz, yilbasi-kapadokya, yilbasi-bogaz-yat, yilbasi-kurumsal-parti, ocak-2027-istanbul-kickoff, ocak-2027-uludag-bursa. Diğerleri "Teklif İste".
+- **Vize** (yabancı misafir): "Türkiye'ye giriş uyruğa göre değişir; birçok ülke vizesiz ya da e-Vize; katılımcı listesine göre kontrol ederiz."
+- **Dosyalar**: `tr/programlar.json`, `tr/detaylar.json` (her metin `tr`/`en`), `tr/template.html`, `tr/template_detay.html` (`[[TR||EN]]` ve `{{A:alt:TR||EN}}` işaretleri), `build_tr.py`.
+- **Derleme**: `python3 build_tr.py <SHA> [--canli]` → `tek/mice-xperience-turkiye.html` (panel) + `ONIZLEME-MICE-Xperience-Turkiye.html` (gömülü görselli) + `dist-tr/img/` (main/img'e kopyalanacak webp'ler).
+- **Görseller**: Canva klasör **34** (`FAHZO59kyXY`), 50 görsel, anahtar→Canva id eşlemesi `tr/canva_ids.json`. Şu an `tr/canva_thumbs/` (200 px, geçici). Tam çözünürlük için Ateş Bey klasör 34'ü zip indirir → `tr/full/<anahtar>.webp`. Son kullanılan Canva klasör numarası: **34**.
+- **Yayın için kalan**: zip → tam görseller → `dist-tr/img/tr-*.webp` main/img'e → push → SHA → `build_tr.py <SHA> --canli` → panelde yeni landing sayfası (slug `mice-xperience-turkiye`).

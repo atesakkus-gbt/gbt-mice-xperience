@@ -48,6 +48,7 @@ def ym(m, lang):
 
 # ---------- görseller ----------
 yer_tutucu = []
+dusuk = []
 def placeholder(key, ratio):
     w = 1200; h = round(w / ratio)
     im = Image.new("RGB", (w, h), "#14213D"); d = ImageDraw.Draw(im)
@@ -63,6 +64,8 @@ def make_image(key, ratio=1.6):
     if (key, ratio) in done: return
     done.add((key, ratio))
     src = next((p for p in (TR / "full" / f"{key}.{x}" for x in ("webp", "jpg", "jpeg", "png")) if p.exists()), None)
+    if src is None and (TR / "canva_thumbs" / f"{key}.png").exists():
+        src = TR / "canva_thumbs" / f"{key}.png"; dusuk.append(key)  # geçici düşük çözünürlük (Canva önizlemesi)
     if src is None:
         g = next((p for p in [ROOT / "src/full" / f"{key}.{x}" for x in ("webp", "jpg", "png")] + [ROOT / "src/canva_thumbs" / f"{key}.jpg"] if p.exists()), None)
         if g is not None: im = Image.open(g)  # global sayfadaki ortak görseller (ör. toplantı)
@@ -186,7 +189,8 @@ def build_details(P, progs):
     return out
 
 # ---------- tek dosya ----------
-LANG_CSS = ('html:not([data-lang="en"]) [data-l="en"]{display:none!important}\n'
+LANG_CSS = ('[data-l]{font:inherit!important;color:inherit!important;letter-spacing:inherit!important;text-transform:inherit!important;background:none!important;padding:0!important;margin:0!important;border:0!important}\n'
+            'html:not([data-lang="en"]) [data-l="en"]{display:none!important}\n'
             'html[data-lang="en"] [data-l="tr"]{display:none!important}')
 LANG_HEAD = """<script>(function(){var l=null;try{l=new URLSearchParams(location.search).get("lang");}catch(e){}
 if(l!=="tr"&&l!=="en"){try{l=localStorage.getItem("mx-lang");}catch(e){}}
@@ -317,7 +321,7 @@ def main():
     prev = prev.replace('if(next&&grid&&grid.getAttribute("data-month-feat")!==next){', 'if(false){')
     (ROOT / "ONIZLEME-MICE-Xperience-Turkiye.html").write_text(prev, encoding="utf-8")
     (DIST / "index.html").write_text(doc, encoding="utf-8")
-    print(f"program: {len(progs)} | detay: {len(details)} | panel: {round(len(panel.encode())/1024)} KB | önizleme: {round(len(prev.encode())/1e6,1)} MB | yer tutucu görsel: {len(yer_tutucu)} | sürüm: {SURUM}")
+    print(f"program: {len(progs)} | detay: {len(details)} | panel: {round(len(panel.encode())/1024)} KB | önizleme: {round(len(prev.encode())/1e6,1)} MB | yer tutucu: {len(yer_tutucu)} | geçici düşük çözünürlük: {len(set(dusuk))} | sürüm: {SURUM}")
     if yer_tutucu: print("eksik:", " ".join(sorted(set(yer_tutucu))))
 
 if __name__ == "__main__":
