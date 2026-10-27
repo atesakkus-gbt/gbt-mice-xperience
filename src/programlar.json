@@ -1,0 +1,316 @@
+{
+  "_not": "Her ay: yeni ayın 2 programını bu listenin sonuna ekleyin. Geçmiş aylar sayfada tarih geldiğinde kendiliğinden gizlenir. 'hazir': true olan programlarda 'Programı İncele' butonu detay sayfasına gider; false iken talep formuna yönlenir.",
+  "programlar": [
+    {
+      "ay": "2026-11",
+      "baslik": "Kuala Lumpur & Langkawi",
+      "slogan": "İkiz Kuleler ve Tropikal Doğa",
+      "aile": "premium",
+      "etiket": "Premium motivasyon",
+      "gorsel": "kuala-lumpur",
+      "alt": "Petronas İkiz Kuleleri ve Langkawi sahili",
+      "sayfa": "kasim-2026-kuala-lumpur-langkawi.html",
+      "hazir": true,
+      "ozet": "Modern şehir ritmini tropikal ada atmosferiyle birleştiren; toplantı, motivasyon ve gala dengeli bir incentive programı."
+    },
+    {
+      "ay": "2026-11",
+      "baslik": "Rio de Janeiro",
+      "slogan": "Büyük Hedef, Büyük Ödül",
+      "aile": "premium",
+      "etiket": "VIP ödüllendirme",
+      "gorsel": "rio",
+      "alt": "Kurtarıcı İsa heykeli ve Rio körfezi",
+      "sayfa": "kasim-2026-rio-de-janeiro.html",
+      "hazir": true,
+      "ozet": "Yüksek performans gösteren bayi grupları için güçlü bir ödül hikâyesi yaratan prestijli bir Güney Amerika deneyimi."
+    },
+    {
+      "ay": "2026-12",
+      "baslik": "Belgrad",
+      "slogan": "Kış & Yıl Sonu Işıkları",
+      "aile": "yakin",
+      "etiket": "Yakın & yıl sonu",
+      "gorsel": "belgrad-kalemegdan",
+      "alt": "Kalemegdan Kalesi, Sava ve Tuna'nın birleştiği nokta",
+      "sayfa": "aralik-2026-belgrad-yil-sonu.html",
+      "hazir": true
+    },
+    {
+      "ay": "2026-12",
+      "baslik": "Bahreyn",
+      "slogan": "Yıl Sonu Galası",
+      "aile": "prestij",
+      "etiket": "Prestij & gala",
+      "gorsel": "bahreyn",
+      "alt": "Bahreyn Dünya Ticaret Merkezi ve Manama silueti",
+      "sayfa": "aralik-2026-bahreyn-gala.html",
+      "hazir": true
+    },
+    {
+      "ay": "2027-01",
+      "baslik": "Dubai & Abu Dabi",
+      "slogan": "Gökdelenler, Çöl ve Körfez Işıkları",
+      "aile": "prestij",
+      "etiket": "Prestij & gala",
+      "gorsel": "dubai-abudabi",
+      "alt": "Gün batımında Burj Khalifa ve Dubai silueti",
+      "sayfa": "ocak-2027-dubai-abu-dabi.html",
+      "hazir": true
+    },
+    {
+      "ay": "2027-01",
+      "baslik": "Saraybosna & Jahorina",
+      "slogan": "Kar, Kayak ve Kick-off",
+      "aile": "yakin",
+      "etiket": "Kick-off & kış",
+      "gorsel": "saraybosna",
+      "alt": "Karlı bir akşamda Saraybosna Başçarşı ve Sebil çeşmesi",
+      "sayfa": "ocak-2027-saraybosna-jahorina-kickoff.html",
+      "hazir": true
+    },
+    {
+      "ay": "2027-02",
+      "baslik": "Phuket & Bangkok",
+      "slogan": "Egzotik Kaçış",
+      "aile": "premium",
+      "etiket": "Premium & ödül",
+      "gorsel": "phuket",
+      "alt": "Phang Nga Körfezi kayalıkları ve longtail tekne",
+      "sayfa": "subat-2027-phuket-bangkok.html",
+      "hazir": true
+    },
+    {
+      "ay": "2027-02",
+      "baslik": "AROYA ile Ege & İskenderiye",
+      "slogan": "İstanbul • İskenderiye • Marmaris • Kuşadası",
+      "aile": "cruise",
+      "etiket": "Helal konsept · uçuşsuz",
+      "gorsel": "istanbul-cruise",
+      "alt": "Gün batımında İstanbul Boğazı'ndan ayrılan kruvaziyer gemisi",
+      "sayfa": "subat-2027-aroya-ege-iskenderiye.html",
+      "hazir": true
+    },
+    {
+      "ay": "2027-03",
+      "baslik": "Doha",
+      "slogan": "Modern Lüks ve Strateji",
+      "aile": "prestij",
+      "etiket": "Toplantı & prestij",
+      "gorsel": "doha",
+      "alt": "Doha silueti, gün batımı",
+      "sayfa": "mart-2027-doha.html",
+      "hazir": true
+    },
+    {
+      "ay": "2027-03",
+      "baslik": "Bakü",
+      "slogan": "Nevruz Coşkusu",
+      "aile": "yakin",
+      "etiket": "Yakın & kültür",
+      "gorsel": "baku",
+      "alt": "Bakü Alev Kuleleri ve Hazar kıyısı",
+      "sayfa": "mart-2027-baku-nevruz.html",
+      "hazir": true
+    },
+    {
+      "ay": "2027-04",
+      "baslik": "Marakeş & Kazablanka",
+      "slogan": "Kültür ve Gizem",
+      "aile": "prestij",
+      "etiket": "Kültür & premium",
+      "gorsel": "marakes",
+      "alt": "Kutubiye Camii minaresi ve Marakeş",
+      "sayfa": "nisan-2027-marakes-kazablanka.html",
+      "hazir": true
+    },
+    {
+      "ay": "2027-04",
+      "baslik": "Maldivler",
+      "slogan": "VIP Ödüllendirme",
+      "aile": "premium",
+      "etiket": "Ultra premium",
+      "gorsel": "maldivler",
+      "alt": "Maldivler su üstü villaları",
+      "sayfa": "nisan-2027-maldivler.html",
+      "hazir": true
+    },
+    {
+      "ay": "2027-05",
+      "baslik": "Tiflis & Batum",
+      "slogan": "Gastronomi, Gurme & Eğlence",
+      "aile": "yakin",
+      "etiket": "Yakın & gastronomi",
+      "gorsel": "tiflis",
+      "alt": "Tiflis eski şehir ve Narikala Kalesi",
+      "sayfa": "mayis-2027-tiflis-batum.html",
+      "hazir": true
+    },
+    {
+      "ay": "2027-05",
+      "baslik": "Şarm El Şeyh",
+      "slogan": "Kızıldeniz'de Bahar & Wellness",
+      "aile": "premium",
+      "etiket": "Resort & motivasyon",
+      "gorsel": "sarm",
+      "alt": "Kızıldeniz mercan kıyısı ve Sina dağları",
+      "sayfa": "mayis-2027-sarm-el-seyh.html",
+      "hazir": true
+    },
+    {
+      "ay": "2027-06",
+      "baslik": "Budva & Kotor",
+      "slogan": "Adriyatik Kıyısında Yaz Açılışı",
+      "aile": "yakin",
+      "etiket": "Yakın & yaz",
+      "gorsel": "kotor",
+      "alt": "Kotor Körfezi ve surlu eski şehir",
+      "sayfa": "haziran-2027-budva-kotor.html",
+      "hazir": true
+    },
+    {
+      "ay": "2027-06",
+      "baslik": "VIVA ENJOY ile Tuna Nehri",
+      "slogan": "Budapeşte • Bratislava • Viyana • Passau",
+      "aile": "cruise",
+      "etiket": "Nehir cruise · VIVA ENJOY veya benzeri",
+      "gorsel": "tuna-viva",
+      "alt": "Wachau vadisinde Tuna nehri ve nehir gemisi",
+      "sayfa": "haziran-2027-viva-enjoy-tuna.html",
+      "hazir": true
+    },
+    {
+      "ay": "2027-07",
+      "baslik": "Venedik, Adriyatik & Ege Adaları",
+      "slogan": "Venedik • Kotor • Mikonos • Siros",
+      "aile": "cruise",
+      "etiket": "Cruise · MSC Lirica veya benzeri",
+      "gorsel": "venedik-cruise",
+      "alt": "Venedik açıklarında Adriyatik'te kruvaziyer gemisi",
+      "sayfa": "temmuz-2027-venedik-adriyatik-ege-cruise.html",
+      "hazir": true
+    },
+    {
+      "ay": "2027-07",
+      "baslik": "Tunus: Hammamet & Sidi Bou Said",
+      "slogan": "Akdeniz'in Egzotik Yüzü",
+      "aile": "prestij",
+      "etiket": "Resort & kültür",
+      "gorsel": "sidi-bou-said",
+      "alt": "Sidi Bou Said'in mavi kapıları ve Akdeniz",
+      "sayfa": "temmuz-2027-tunus.html",
+      "hazir": true
+    },
+    {
+      "ay": "2027-08",
+      "baslik": "Balkanlar Turu",
+      "slogan": "Üsküp • Ohrid • Tiran",
+      "aile": "yakin",
+      "etiket": "Yakın & aile katılımı",
+      "gorsel": "ohrid",
+      "alt": "Ohrid Gölü üzerinde Kaneo Kilisesi",
+      "sayfa": "agustos-2027-balkanlar-turu.html",
+      "hazir": true
+    },
+    {
+      "ay": "2027-08",
+      "baslik": "Zanzibar",
+      "slogan": "Egzotik Yaz Sonu",
+      "aile": "premium",
+      "etiket": "Egzotik & ödül",
+      "gorsel": "zanzibar",
+      "alt": "Zanzibar sahili ve geleneksel dhow teknesi",
+      "sayfa": "agustos-2027-zanzibar.html",
+      "hazir": true
+    },
+    {
+      "ay": "2027-09",
+      "baslik": "Singapur & Malezya Gemi Turu",
+      "slogan": "Singapur • Penang • Phuket",
+      "aile": "cruise",
+      "etiket": "Cruise · Navigator of the Seas veya benzeri",
+      "gorsel": "singapur-cruise",
+      "alt": "Marina Bay Sands ve Singapur silueti",
+      "sayfa": "eylul-2027-singapur-penang-cruise.html",
+      "hazir": true
+    },
+    {
+      "ay": "2027-09",
+      "baslik": "Semerkant & Buhara",
+      "slogan": "İpek Yolu'nun Mavi Kubbeleri",
+      "aile": "prestij",
+      "etiket": "Kültür & prestij",
+      "gorsel": "semerkant",
+      "alt": "Semerkant Registan Meydanı medreseleri",
+      "sayfa": "eylul-2027-semerkant-buhara.html",
+      "hazir": true
+    },
+    {
+      "ay": "2027-10",
+      "baslik": "Nil Gemi Turu: Luksor & Asvan",
+      "slogan": "Kahire • Luksor • Asvan",
+      "aile": "cruise",
+      "etiket": "Nehir cruise · Sonesta St. George veya benzeri",
+      "gorsel": "nil-cruise",
+      "alt": "Asvan yakınlarında Nil'de nehir gemisi ve feluka",
+      "sayfa": "ekim-2027-nil-cruise.html",
+      "hazir": true
+    },
+    {
+      "ay": "2027-10",
+      "baslik": "Maskat & Umman",
+      "slogan": "Arabistan'ın Sakin Lüksü",
+      "aile": "prestij",
+      "etiket": "Prestij & toplantı",
+      "gorsel": "maskat",
+      "alt": "Maskat Sultan Kabus Camii",
+      "sayfa": "ekim-2027-maskat-umman.html",
+      "hazir": true
+    },
+    {
+      "ay": "2027-11",
+      "baslik": "Tokyo & Kyoto",
+      "slogan": "Sonbahar Renklerinde Japonya",
+      "aile": "premium",
+      "etiket": "Premium & kültür",
+      "gorsel": "kyoto",
+      "alt": "Kyoto Kiyomizu-dera tapınağı ve sonbahar akçaağaçları",
+      "sayfa": "kasim-2027-tokyo-kyoto.html",
+      "hazir": true
+    },
+    {
+      "ay": "2027-11",
+      "baslik": "Mekong Nehri: Saigon'dan Angkor'a",
+      "slogan": "Ho Chi Minh • Phnom Penh • Siem Reap",
+      "aile": "cruise",
+      "etiket": "Nehir cruise · Victoria Mekong veya benzeri",
+      "gorsel": "mekong",
+      "alt": "Mekong nehrinde gün batımında koloniyal tarzda nehir gemisi",
+      "sayfa": "kasim-2027-mekong-saigon-angkor.html",
+      "hazir": true,
+      "ozet": "Vietnam'dan Kamboçya'ya Mekong nehri boyunca yüzen pazarlar, krallık başkenti Phnom Penh ve Angkor Wat'ta gün doğumu; iki ülkeyi tek gemide birleştiren premium bir ödül yolculuğu."
+    }
+  ],
+  "ozel": [
+    {
+      "ay": "2027-05",
+      "baslik": "New York & Washington DC",
+      "slogan": "Memorial Day Doğu Yakası",
+      "not": "ABD vizesi hazır gruplar için özel tarih ürünü",
+      "gorsel": "new-york",
+      "alt": "Manhattan silueti ve Brooklyn Köprüsü",
+      "sayfa": "mayis-2027-new-york-washington.html",
+      "hazir": false
+    },
+    {
+      "ay": "2027-07",
+      "baslik": "Boston & Philadelphia",
+      "slogan": "4th of July Experience",
+      "not": "ABD vizesi hazır gruplar için özel tarih ürünü",
+      "gorsel": "boston",
+      "alt": "Boston silueti ve Charles Nehri üzerinde havai fişekler",
+      "sayfa": "temmuz-2027-boston-philadelphia.html",
+      "hazir": false
+    }
+  ]
+}

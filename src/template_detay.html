@@ -1,0 +1,283 @@
+{{HEAD}}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&display=swap">
+<link rel="preload" as="image" href="img/{{KAPAK}}.webp" type="image/webp">
+<style>
+/* Layout: ana sayfayla aynı açık dil. Kapak solda metin + sağda görsel; program gün gün dikey akış (numara sütunu, görsel, metin). */
+:root{
+  --paper:#FCFAF6; --surface:#FFFFFF; --cream:#F5F0E6; --ink:#1A2233; --muted:#5E6573;
+  --navy:#14213D; --gold:#AE8739; --gold-soft:#E7D6AA; --brand:#C29A69;
+  --line:#E6DFD1; --track:#EFE9DC; --shadow:rgba(20,33,61,.08);
+  --display:"Newsreader",Georgia,"Times New Roman",serif;
+  --body:"Figtree","Segoe UI",system-ui,sans-serif;
+  --r:18px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 16px/1.6 var(--body);-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%;height:auto}
+h1,h2,h3{font-family:var(--display);font-weight:500;color:var(--navy);text-wrap:balance;margin:0}
+p{margin:0}
+.wrap{width:100%;max-width:1220px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+.eyebrow{font:600 12px/1.2 var(--body);letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.lead{font-size:18px;color:var(--muted);max-width:62ch}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 22px;border-radius:999px;font:600 15px/1 var(--body);border:1px solid var(--navy);transition:transform .18s,background .18s,color .18s}
+.btn:hover{transform:translateY(-1px)}
+.btn-navy{background:var(--navy);color:#fff}
+.btn-gold{background:var(--gold);border-color:var(--gold);color:#fff}
+.btn-line{background:transparent;color:var(--navy)}
+.btn-line:hover{background:var(--navy);color:#fff}
+:focus-visible{outline:3px solid var(--brand);outline-offset:3px}
+
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:var(--paper)}
+.topbar{background:var(--cream);border-bottom:1px solid var(--line);font-size:13px;color:var(--muted)}
+.topbar .wrap{display:flex;justify-content:space-between;gap:16px;padding-block:8px;flex-wrap:wrap}
+.topbar .motto{font-family:var(--display);font-style:italic;color:var(--brand);font-size:14px}
+.topbar .contact{display:flex;gap:20px;flex-wrap:wrap}
+.header{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:rgba(252,250,246,.94);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:18px;padding-block:10px}
+.logo{width:auto;height:66px}
+.navlinks{display:flex;align-items:center;gap:26px;font-size:15px;font-weight:500}
+.navlinks a:not(.btn):hover{color:var(--gold)}
+.navlinks .btn{min-height:42px;padding:0 18px;font-size:14px}
+
+/* kapak */
+.crumb{font-size:13px;color:var(--muted);display:flex;gap:8px;flex-wrap:wrap;padding-top:26px}
+.crumb a{border-bottom:1px solid var(--line)}
+.crumb a:hover{color:var(--gold);border-color:var(--gold)}
+.hero{padding-block:22px 64px}
+.hero-grid{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);gap:48px;align-items:center}
+.hero-copy{display:grid;gap:20px}
+.hero h1{font-size:clamp(44px,5.8vw,80px);line-height:.98;letter-spacing:-.025em}
+.hero h1 .amp{color:var(--gold);font-style:italic}
+.hero .sub{font:italic 400 clamp(22px,2.4vw,30px)/1.25 var(--display);color:var(--gold)}
+.meta{display:flex;flex-wrap:wrap;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.meta div{padding:14px 22px 14px 0;margin-right:22px;border-right:1px solid var(--line);display:grid;gap:2px}
+.meta div:last-child{border-right:0;margin-right:0}
+.meta span{font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.meta b{font:500 20px/1.2 var(--display);color:var(--navy)}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap}
+.hero-img{margin:0;border-radius:24px;overflow:hidden;aspect-ratio:4/3.3;background:var(--track);box-shadow:0 22px 50px var(--shadow)}
+.hero-img img{width:100%;height:100%;object-fit:cover}
+
+/* program akışı */
+.section{padding-block:84px}
+.section-head{display:grid;gap:14px;margin-bottom:40px;max-width:800px}
+.section-head h2{font-size:clamp(34px,4.4vw,54px);line-height:1.04;letter-spacing:-.02em}
+.section-head .note{font:italic 400 22px/1.45 var(--display);color:var(--navy);opacity:.85}
+.program{background:var(--surface);border-block:1px solid var(--line)}
+.days{display:grid;gap:0}
+.day{display:grid;grid-template-columns:96px minmax(0,1.05fr) minmax(0,1fr);gap:32px;align-items:center;padding-block:30px;border-top:1px solid var(--line)}
+.day:first-child{border-top:0;padding-top:0}
+.day-no{align-self:start;display:grid;gap:2px}
+.day-no b{font:500 54px/1 var(--display);color:var(--gold);font-variant-numeric:tabular-nums}
+.day-no span{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.day-img{margin:0;border-radius:var(--r);overflow:hidden;aspect-ratio:3/2;background:var(--track)}
+.day-img img{width:100%;height:100%;object-fit:cover}
+.day-body{display:grid;gap:12px;align-content:center}
+.day-body h3{font-size:30px;line-height:1.1}
+.day-body p{color:var(--muted)}
+.day-extra{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:6px}
+.day-extra figure{margin:0;border-radius:10px;overflow:hidden;aspect-ratio:4/3;background:var(--track)}
+.day-extra img{width:100%;height:100%;object-fit:cover}
+.tag{justify-self:start;font-size:12px;font-weight:600;color:var(--navy);background:var(--track);border-radius:999px;padding:6px 11px}
+.day:nth-child(even) .day-img{order:3}
+.day:nth-child(even) .day-body{order:2}
+.prog-note{margin-top:34px;padding:18px 22px;border-radius:14px;background:var(--cream);border:1px solid var(--line);color:var(--muted);font-size:15px}
+.prog-note b{color:var(--navy)}
+
+/* xperience */
+.xp-grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:48px;align-items:start}
+.xp-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.xp{padding:20px;border:1px solid var(--line);border-radius:14px;background:var(--surface);display:grid;gap:6px}
+.xp b{font:600 12px/1.2 var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+.xp span{color:var(--muted);font-size:15px}
+
+/* kimler için */
+.aud{background:var(--gold-soft)}
+.aud .eyebrow{color:#7A5C22}
+.aud-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.aud-item{background:var(--paper);border-radius:var(--r);padding:22px;display:grid;gap:8px;align-content:start}
+.aud-item h3{font-size:22px;line-height:1.15}
+.aud-item p{color:var(--muted);font-size:15px}
+
+/* form */
+.cta{background:var(--cream);border-top:1px solid var(--line)}
+.cta-grid{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:48px;align-items:start}
+.cta-copy{display:grid;gap:18px}
+.cta-copy h2{font-size:clamp(32px,3.8vw,48px);line-height:1.05}
+.contact-list{display:grid;gap:12px;padding-top:18px;border-top:1px solid var(--line)}
+.contact-list div{display:grid;gap:2px}
+.contact-list span{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.contact-list b{font:500 21px/1.25 var(--display);color:var(--navy);user-select:all}
+.form-card{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:12px;box-shadow:0 16px 40px var(--shadow)}
+.form-card iframe{display:block;width:100%;height:700px;border:0;border-radius:14px;background:var(--surface)}
+.form-foot{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin:12px 8px 4px}
+.form-note{font-size:13px;color:var(--muted)}
+.form-open{min-height:40px;font-size:13px;padding:0 16px}
+
+/* diğer rotalar */
+.rel-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.rel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;transition:box-shadow .2s,transform .2s}
+.rel:hover{box-shadow:0 14px 34px var(--shadow);transform:translateY(-2px)}
+.rel .img{margin:0;aspect-ratio:16/10;background:var(--track);overflow:hidden}
+.rel .img img{width:100%;height:100%;object-fit:cover}
+.rel-body{padding:16px 18px 18px;display:grid;gap:4px}
+.rel-body .m{font:600 11px/1.2 var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+.rel-body h3{font-size:22px;line-height:1.1}
+.rel-body p{color:var(--muted);font-size:14.5px}
+.back{margin-top:28px;display:flex;justify-content:center}
+
+footer{background:var(--surface);border-top:1px solid var(--line);padding-block:30px;font-size:13px;color:var(--muted)}
+footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+footer .logo{height:52px}
+footer .motto{font:italic 500 18px/1.2 var(--display);color:var(--brand)}
+.sticky-cta{display:none}
+
+@media (max-width:980px){
+  .hero-grid,.xp-grid,.cta-grid{grid-template-columns:minmax(0,1fr)}
+  .day{grid-template-columns:72px minmax(0,1fr);gap:18px 22px}
+  .day-img,.day:nth-child(even) .day-img{grid-column:2;order:2}
+  .day-body,.day:nth-child(even) .day-body{grid-column:2;order:3}
+  .day-no{grid-row:1/3}
+  .aud-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .navlinks a:not(.btn){display:none}
+}
+@media (max-width:760px){
+  .section{padding-block:60px}
+  .rel-grid{grid-template-columns:minmax(0,1fr)}
+  .topbar .motto{display:none}
+  .topbar .wrap{justify-content:center}
+  .logo{height:52px}
+  .day{grid-template-columns:minmax(0,1fr)}
+  .day-no{grid-row:auto;grid-auto-flow:column;justify-content:start;align-items:baseline;gap:10px}
+  .day-no b{font-size:40px}
+  .day-img,.day-body,.day:nth-child(even) .day-img,.day:nth-child(even) .day-body{grid-column:1}
+  .sticky-cta{display:block;position:fixed;left:0;right:0;bottom:0;z-index:70;padding:10px max(16px,env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));background:linear-gradient(to top,var(--paper) 60%,rgba(252,250,246,0))}
+  .sticky-cta a{display:flex;justify-content:center;align-items:center;min-height:50px;border-radius:999px;background:var(--gold);color:#fff;font-weight:700}
+  body{padding-bottom:76px}
+  .form-card iframe{height:820px}
+}
+@media (max-width:560px){
+  .aud-grid,.xp-cards{grid-template-columns:minmax(0,1fr)}
+  .navlinks .btn{display:none}
+  .meta div{padding-right:14px;margin-right:14px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none!important;animation:none!important}
+}
+.topbar .contact a,.contact-list b a,footer a{color:inherit;text-decoration:none}
+.topbar .contact a:hover,.contact-list b a:hover,footer a:hover{text-decoration:underline;text-underline-offset:3px}
+.contact-list b{user-select:auto}
+</style>
+{{BODY_OPEN}}
+<div class="topbar"><div class="wrap">
+  <span class="motto">Siz hayal edin, biz yapalım.</span>
+  <span class="contact"><a href="mailto:event@goldenbaytour.com.tr?subject={{MAIL_KONU}}">event@goldenbaytour.com.tr</a><a href="tel:+908502023901">+90 850 202 3901</a></span>
+</div></div>
+<header class="header"><div class="wrap nav">
+  <a href="index.html" aria-label="MICE Xperience Global ana sayfa"><img class="logo" src="img/logo-gbt-mice.png" width="{{LOGO_W}}" height="{{LOGO_H}}" alt="Golden Bay Tour Corporate MICE"></a>
+  <nav class="navlinks" aria-label="Sayfa bölümleri">
+    <a href="#program">Program</a>
+    <a href="#xperience">Xperience</a>
+    <a href="index.html#rotalar">Tüm Rotalar</a>
+    <a class="btn btn-navy" href="#talep">Teklif İste</a>
+  </nav>
+</div></header>
+
+<main>
+<div class="wrap crumb"><a href="index.html">MICE Xperience Global</a><span>/</span><a href="index.html#ay-{{AY}}">{{AY_AD}}</a><span>/</span><span>{{BASLIK_DUZ}}</span></div>
+<section class="hero"><div class="wrap hero-grid">
+  <div class="hero-copy">
+    <div class="eyebrow">MICE Xperience Global · {{AY_AD}}</div>
+    <h1>{{BASLIK_H1}}</h1>
+    <p class="sub">{{ALT_BASLIK}}</p>
+    <p class="lead">{{GIRIS}}</p>
+    <div class="meta">
+      <div><span>Dönem</span><b>{{AY_AD}}</b></div>
+      <div><span>Süre</span><b>{{SURE}}</b></div>
+      <div><span>Kategori</span><b>{{AILE}}</b></div>
+    </div>
+    <div class="hero-actions">
+      <a class="btn btn-navy" href="#talep">Kuruma Özel Program İsteyin</a>
+      <a class="btn btn-line" href="#program">Örnek Programı Görün</a>
+    </div>
+  </div>
+  <figure class="hero-img"><img src="img/{{KAPAK}}.webp" width="1200" height="750" alt="{{KAPAK_ALT}}" fetchpriority="high"></figure>
+</div></section>
+
+<section class="section program" id="program"><div class="wrap">
+  <div class="section-head">
+    <div class="eyebrow">Golden Bay Tour örnek program önerisi</div>
+    <h2>{{SURE}}</h2>
+    <p class="note">{{AKIS_NOTU}}</p>
+  </div>
+  <div class="days">{{GUNLER}}</div>
+  <p class="prog-note"><b>Program notu:</b> Bu içerik örnek bir MICE Xperience Global kurgusudur. Tarih, süre, otel, toplantı, aktivite, gala ve operasyon detayları kurumunuzun hedeflerine göre özelleştirilir.{{NOT_EK}}</p>
+</div></section>
+
+<section class="section" id="xperience"><div class="wrap xp-grid">
+  <div class="section-head" style="margin-bottom:0">
+    <div class="eyebrow">Bir seyahat değil</div>
+    <h2>Kurumunuza özel bir deneyim.</h2>
+    <p class="lead">Ödüllendirme, toplantı, ekip motivasyonu ve marka deneyimini aynı yolculuk içinde tasarlıyoruz.</p>
+  </div>
+  <div class="xp-cards">
+    <div class="xp"><b>Meeting Xperience</b><span>Bayi toplantısı, kick-off veya lansman.</span></div>
+    <div class="xp"><b>Reward Xperience</b><span>Başarıyı unutulmaz bir deneyimle ödüllendirme.</span></div>
+    <div class="xp"><b>Gastronomy</b><span>Yerel lezzetler ve seçilmiş yemek deneyimleri.</span></div>
+    <div class="xp"><b>Team Xperience</b><span>Birlikte deneyim, daha güçlü bağ.</span></div>
+    <div class="xp"><b>Gala Xperience</b><span>Branding, ödül töreni ve özel gece.</span></div>
+    <div class="xp"><b>Tailor-made</b><span>Kuruma özel uçtan uca seyahat tasarımı.</span></div>
+  </div>
+</div></section>
+
+<section class="section aud"><div class="wrap">
+  <div class="section-head">
+    <div class="eyebrow">Hedef kullanım</div>
+    <h2>Bu Xperience kimler için?</h2>
+  </div>
+  <div class="aud-grid">
+    <div class="aud-item"><h3>Bayi & distribütör</h3><p>Satış hedeflerini gerçekleştiren iş ortakları.</p></div>
+    <div class="aud-item"><h3>Top performer</h3><p>En yüksek performansı gösteren seçilmiş ekipler.</p></div>
+    <div class="aud-item"><h3>Satış motivasyonu</h3><p>Yeni hedef dönemi öncesi motivasyon programları.</p></div>
+    <div class="aud-item"><h3>Dealer meeting + incentive</h3><p>Toplantı ve ödüllendirmeyi tek programda birleştiren şirketler.</p></div>
+  </div>
+</div></section>
+
+<section class="section cta" id="talep"><div class="wrap cta-grid">
+  <div class="cta-copy">
+    <div class="eyebrow">Kuruma özel program talebi</div>
+    <h2>{{BASLIK_DUZ}} programınızı birlikte tasarlayalım.</h2>
+    <p class="lead">Katılımcı sayınızı, seyahat döneminizi ve kurum hedeflerinizi paylaşın. MICE ekibimiz size özel program ve teklifle dönüş yapsın.</p>
+    <div class="contact-list">
+      <div><span>E-posta</span><b><a href="mailto:event@goldenbaytour.com.tr?subject={{MAIL_KONU}}">event@goldenbaytour.com.tr</a></b></div>
+      <div><span>Telefon</span><b><a href="tel:+908502023901">+90 850 202 3901</a></b></div>
+    </div>
+  </div>
+  <div class="form-card">
+    <iframe src="https://eu.bigin.online/org20113131990/forms/mice-xperience" title="{{BASLIK_DUZ}} program talep formu" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="clipboard-write"></iframe>
+    <div class="form-foot"><p class="form-note">Talebiniz doğrudan Golden Bay Tour MICE ekibine iletilir.</p><a class="btn btn-line form-open" href="https://eu.bigin.online/org20113131990/forms/mice-xperience" target="_blank" rel="noopener">Form görünmüyorsa yeni sekmede açın ↗</a></div>
+  </div>
+</div></section>
+
+<section class="section"><div class="wrap">
+  <div class="section-head">
+    <div class="eyebrow">MICE Xperience Global</div>
+    <h2>Başka bir Xperience mı arıyorsunuz?</h2>
+  </div>
+  <div class="rel-grid">{{DIGER}}</div>
+  <div class="back"><a class="btn btn-line" href="index.html#rotalar">Tüm takvime dönün</a></div>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <img class="logo" src="img/logo-gbt-mice.png" width="{{LOGO_W}}" height="{{LOGO_H}}" alt="Golden Bay Tour Corporate MICE" loading="lazy">
+  <span class="motto">Kurumsal Seyahatin Gücü</span>
+  <span><a href="mailto:event@goldenbaytour.com.tr?subject={{MAIL_KONU}}">event@goldenbaytour.com.tr</a> · <a href="tel:+908502023901">+90 850 202 3901</a> · <a href="https://kurumsal.goldenbaytour.com" target="_blank" rel="noopener">kurumsal.goldenbaytour.com</a></span>
+</div></footer>
+<div class="sticky-cta"><a href="#talep">Kuruma Özel Program İsteyin</a></div>
+{{BODY_CLOSE}}

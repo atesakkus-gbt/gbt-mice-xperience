@@ -1,0 +1,22 @@
+MICE XPERIENCE GLOBAL (YURTDIŞI) – YAYIN PAKETİ
+=============================
+
+dist/  -> Web sitesine yüklenecek klasör (kurumsal.goldenbaytour.com altında /mice-xperience/global/ ; ileride yurtiçi sürümü /mice-xperience/turkiye/)
+   index.html                               Ana sayfa (MICE Xperience Global takvimi)
+   <ay>-<rota>.html                         Detay sayfaları (Kuala Lumpur, Rio, Belgrad, Bahreyn)
+   img/                                     Tüm görseller (WebP)
+
+Sayfa kendini nasıl günceller?
+- Ziyaretçi sayfayı açtığında tarih İstanbul saatine göre okunur.
+- Biten ayın rotaları takvimden kalkar, "öne çıkanlar" bir sonraki ayın iki rotasını gösterir.
+- Rakamlar (aylık takvim / aktif program) otomatik hesaplanır.
+- Test için adresin sonuna #tarih-test-2027-03 gibi bir ay ekleyerek o tarihte nasıl görüneceğine bakabilirsiniz.
+
+Her ay yapılacak tek iş:
+- Yeni ayın 2 programını src/programlar.json'a eklemek ve build.py ile yeniden derlemek.
+  (Bu paketi Claude'a yükleyip "Aralık 2027 programlarını ekle" demeniz yeterli.)
+
+Detay sayfası hazır olduğunda:
+- programlar.json'da ilgili programda "hazir": true yapın. "Teklif İste" butonu "Programı İncele"ye döner.
+
+Not: Bigin formu Claude önizlemesinde görünmez (güvenlik kısıtı), kendi sitenizde normal çalışır.

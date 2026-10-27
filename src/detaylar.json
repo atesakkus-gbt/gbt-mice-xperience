@@ -1,0 +1,1460 @@
+{
+  "_not": "Her detay sayfası buradaki bir kayıttan üretilir. 'sayfa' adı programlar.json'daki 'sayfa' ile aynı olmalı. Görsel anahtarları src/full (tam çözünürlük) veya src/canva_thumbs (geçici) içinde aranır.",
+  "sayfalar": [
+    {
+      "sayfa": "kasim-2026-kuala-lumpur-langkawi.html",
+      "sure": "5 Gece / 6 Gün",
+      "kapak": "kl-kapak",
+      "kapak_alt": "Petronas İkiz Kuleleri ve Langkawi sahili",
+      "giris": "Başarılı bayi ve iş ortaklarını ödüllendirmek, motive etmek ve markayla bağlarını güçlendirmek için tasarlanan; şehir, toplantı, gastronomi ve resort deneyimini tek programda birleştiren premium kurumsal seyahat.",
+      "alt_baslik": "Şehir enerjisinden tropikal bir ödüle.",
+      "akis_notu": "Şehrin enerjisinden adanın özgürlüğüne uzanan, her günü farklı bir deneyim olarak tasarlanmış örnek akış. Vize: Malezya'ya girişte Türk vatandaşlarına ücretsiz vize verilir; seyahatten 3 gün önce dijital seyahat formu doldurulmalıdır.",
+      "gunler": [
+        {
+          "baslik": "İstanbul → Kuala Lumpur",
+          "metin": "Kuala Lumpur'a varış. Havalimanında Golden Bay Tour ekibi tarafından özel karşılama, gruba ayrılmış araçlarla otele transfer ve check-in. Uçuş saatine göre dinlenme; akşam grubun ilk kez bir araya geleceği sıcak bir karşılama buluşması planlanabilir.",
+          "etiket": "Karşılama · VIP transfer",
+          "gorsel": "kl-d1",
+          "alt": "Kuala Lumpur havalimanında grup karşılaması"
+        },
+        {
+          "baslik": "Kuala Lumpur",
+          "metin": "Şehrin modern yüzünü ve yerel kültürünü birlikte keşfedeceğimiz tam günlük şehir deneyimi. Petronas İkiz Kuleleri ve şehrin öne çıkan noktalarının ardından seçilmiş yerel lezzet durakları. Gün, kuruma özel kurgulanabilecek Welcome Dinner ile tamamlanır.",
+          "etiket": "Şehir · Gastronomi",
+          "gorsel": "kl-d2",
+          "alt": "Akşam Kuala Lumpur silueti ve çatı terası"
+        },
+        {
+          "baslik": "İş, Vizyon & Birliktelik",
+          "metin": "Sabah kurumun hedeflerine göre bayi toplantısı, yeni dönem stratejisi, ürün lansmanı veya başarı sunumları için özel salon organizasyonu. Öğleden sonra networking ve serbest zaman; akşam seçilmiş bir mekânda kuruma özel yemek ya da ödül buluşması.",
+          "etiket": "Toplantı · Ödül",
+          "gorsel": "kl-d3",
+          "alt": "Kuala Lumpur'da kurumsal toplantı salonu"
+        },
+        {
+          "baslik": "Kuala Lumpur → Langkawi",
+          "metin": "Kahvaltının ardından Langkawi'ye geçiş ve seçilmiş resort otele yerleşme. Programın ritmi şehir enerjisinden tropikal ödüllendirme atmosferine döner; günün devamı resort olanakları, sahil ve dinlenme için serbest bırakılır.",
+          "etiket": "Ada · Resort",
+          "gorsel": "kl-d4",
+          "alt": "Langkawi'de resort havuzu ve ada manzarası"
+        },
+        {
+          "baslik": "MICE Xperience Günü",
+          "metin": "Langkawi'nin doğasını ve denizini öne çıkaran kuruma özel bir gün. Grup profiline göre tekne ve ada deneyimi, takım aktiviteleri veya premium dinlenme seçenekleri. Akşam branding, ödül töreni ve özel menüyle Golden Bay Gala Night.",
+          "etiket": "Takım · Gala · Ödül",
+          "gorsel": "kl-d5",
+          "alt": "Langkawi'de gün batımında yat ve gala hazırlığı"
+        },
+        {
+          "baslik": "Langkawi → İstanbul",
+          "metin": "Kahvaltı sonrası uçuş saatine göre resortta serbest zaman. Son fotoğraflar ve dinlenmenin ardından özel transferle havalimanına geçiş ve İstanbul'a dönüş. Yolculuk biter; ortak deneyimin kurum içindeki etkisi devam eder.",
+          "etiket": "Deneyim sürüyor",
+          "gorsel": "kl-d6",
+          "alt": "Langkawi resortundan ayrılış"
+        }
+      ]
+    },
+    {
+      "sayfa": "kasim-2026-rio-de-janeiro.html",
+      "sure": "5 Gece / 6 Gün",
+      "kapak": "rio",
+      "kapak_alt": "Kurtarıcı İsa heykeli ve Rio körfezi",
+      "giris": "Yılın en yüksek performansını gösteren bayi ve ekipler için hedefin büyüklüğüne yakışan bir ödül: Rio de Janeiro'nun ikonik manzaraları, okyanus kıyısında toplantı ve unutulmaz bir gala gecesi.",
+      "alt_baslik": "Büyük hedef, büyük ödül.",
+      "akis_notu": "Kurtarıcı İsa'dan Guanabara Körfezi'ne, Copacabana'dan samba eşliğinde bir gala gecesine uzanan örnek akış. Vize: Brezilya Türk vatandaşlarına vizesizdir.",
+      "gunler": [
+        {
+          "baslik": "İstanbul → Rio de Janeiro",
+          "metin": "Rio de Janeiro'ya varış, Golden Bay Tour ekibi tarafından VIP karşılama ve Copacabana sahilindeki otele transfer. Uzun yolculuğun ardından dinlenme; akşam sahil şeridinde hafif bir karşılama yemeği.",
+          "etiket": "Karşılama · VIP transfer",
+          "gorsel": "rio-d1",
+          "alt": "Copacabana sahil yürüyüş yolu"
+        },
+        {
+          "baslik": "Kurtarıcı İsa & Şekerkamışı Dağı",
+          "metin": "Sabah Corcovado tepesindeki Kurtarıcı İsa heykeli ve şehrin panoramik manzarası. Öğleden sonra teleferikle Şekerkamışı Dağı'na (Pão de Açúcar) çıkış ve körfez üzerinde gün batımı.",
+          "etiket": "Şehir · Simge manzaralar",
+          "gorsel": "rio-d2",
+          "alt": "Gün batımında Şekerkamışı Dağı teleferiği"
+        },
+        {
+          "baslik": "Toplantı & Churrasco",
+          "metin": "Sabah körfez manzaralı salonda bayi toplantısı, yeni dönem hedefleri veya başarı sunumları. Öğleden sonra serbest zaman; akşam geleneksel Brezilya churrascaria'sında kuruma özel yemek.",
+          "etiket": "Toplantı · Gastronomi",
+          "gorsel": "rio-d3",
+          "alt": "Körfez manzaralı toplantı salonu"
+        },
+        {
+          "baslik": "Guanabara Körfezi'nde Yat Günü",
+          "metin": "Kuruma özel yatla Guanabara Körfezi ve çevresindeki adalarda gün boyu deniz deneyimi. Grup profiline göre takım aktiviteleri, yüzme molaları ve teknede öğle yemeği.",
+          "etiket": "Takım · Deniz",
+          "gorsel": "rio-d4",
+          "alt": "Guanabara Körfezi'nde özel yat"
+        },
+        {
+          "baslik": "Santa Teresa & Gala Gecesi",
+          "metin": "Gün içinde tarihi Santa Teresa mahallesi ve renkli Selarón Merdivenleri. Akşam şehir ışıklarına bakan terasta canlı samba müziği, branding ve ödül töreniyle Golden Bay Gala Night.",
+          "etiket": "Gala · Ödül",
+          "gorsel": "rio-d5",
+          "alt": "Rio'da teras gala gecesi"
+        },
+        {
+          "baslik": "Ipanema → İstanbul",
+          "metin": "Kahvaltı sonrası uçuş saatine göre Ipanema sahilinde serbest zaman. Havalimanına transfer ve İstanbul'a dönüş; varış ertesi gün.",
+          "etiket": "Veda",
+          "gorsel": "rio-d6",
+          "alt": "Ipanema sahili ve Dois Irmãos dağları"
+        }
+      ]
+    },
+    {
+      "sayfa": "aralik-2026-belgrad-yil-sonu.html",
+      "sure": "3 Gece / 4 Gün",
+      "kapak": "belgrad-kalemegdan",
+      "kapak_alt": "Kalemegdan Kalesi'nden Sava ve Tuna'nın birleştiği nokta",
+      "giris": "Yılı başarıyla kapatan bayi ve satış ekipleri için kısa uçuş mesafesinde, yıl sonu ışıklarıyla süslenmiş bir Balkan başkentinde toplantı, kutlama ve ödülü bir araya getiren program.",
+      "alt_baslik": "Yılı ışıklar altında kapatın.",
+      "akis_notu": "Kısa ve yoğun bir program: bir akşam bohem karşılama, bir gün şehir, bir gün toplantı ve yıl sonu galası. Vize: Sırbistan Türk vatandaşlarına vizesizdir.",
+      "gunler": [
+        {
+          "baslik": "İstanbul → Belgrad",
+          "metin": "Belgrad'a varış, Golden Bay Tour ekibi tarafından karşılama ve özel araçlarla otele transfer. Check-in sonrası dinlenme. Akşam, şehrin bohem sokağı Skadarlija'da canlı müzik eşliğinde karşılama yemeği.",
+          "etiket": "Karşılama · Skadarlija",
+          "gorsel": "belgrad-d1",
+          "alt": "Kış akşamında Skadarlija sokağı"
+        },
+        {
+          "baslik": "Kalemegdan & Yılbaşı Işıkları",
+          "metin": "Sava ile Tuna'nın birleştiği noktaya hâkim Kalemegdan Kalesi, Aziz Sava Katedrali ve şehrin simge noktaları. Öğleden sonra yılbaşı ışıklarıyla süslenen Knez Mihailova Caddesi'nde serbest zaman ve alışveriş.",
+          "etiket": "Şehir · Kültür",
+          "gorsel": "belgrad-d2",
+          "alt": "Yılbaşı ışıklarıyla Knez Mihailova Caddesi"
+        },
+        {
+          "baslik": "Toplantı & Yıl Sonu Galası",
+          "metin": "Sabah otelde yıl değerlendirmesi, yeni yıl hedefleri veya bayi toplantısı. Öğleden sonra serbest zaman. Akşam kurum markasıyla tasarlanmış salonda yıl sonu galası, ödül töreni ve özel menü.",
+          "etiket": "Toplantı · Gala · Ödül",
+          "gorsel": "belgrad-d3",
+          "alt": "Belgrad'da yıl sonu gala yemeği"
+        },
+        {
+          "baslik": "Zemun → İstanbul",
+          "metin": "Kahvaltı sonrası Tuna kıyısındaki Zemun'da Gardoš Kulesi ve eski çarşı yürüyüşü, nehir kenarında brunch. Uçuş saatine göre havalimanına transfer ve İstanbul'a dönüş.",
+          "etiket": "Tuna · Veda",
+          "gorsel": "belgrad-d4",
+          "alt": "Zemun'da Gardoš Kulesi ve Tuna Nehri"
+        }
+      ]
+    },
+    {
+      "sayfa": "aralik-2026-bahreyn-gala.html",
+      "sure": "3 Gece / 4 Gün",
+      "kapak": "bahreyn",
+      "kapak_alt": "Bahreyn Dünya Ticaret Merkezi ve Manama silueti",
+      "giris": "Yılın en iyi performans gösteren bayi ve ekipleri için Körfez'in en sıcak kış iklimlerinden birinde, prestijli bir yıl sonu galası etrafında kurgulanan kısa ve yüksek algılı ödül programı.",
+      "alt_baslik": "Körfez'de bir yıl sonu galası.",
+      "akis_notu": "Ilık kış güneşi, Arap kültürü ve yılın en parlak gecesi: programın merkezinde yıl sonu galası var. Vize: Bahreyn için e-vize gereklidir.",
+      "gunler": [
+        {
+          "baslik": "İstanbul → Manama",
+          "metin": "Manama'ya varış, VIP karşılama ve otele transfer. Check-in sonrası dinlenme. Akşam Manama Körfezi'ne bakan terasta şehir ışıkları eşliğinde karşılama resepsiyonu.",
+          "etiket": "Karşılama · VIP transfer",
+          "gorsel": "bahreyn-d1",
+          "alt": "Manama Körfezi'nde teras resepsiyonu"
+        },
+        {
+          "baslik": "Bahreyn Kültürü",
+          "metin": "UNESCO Dünya Mirası listesindeki Bahreyn Kalesi (Qal'at al-Bahrain), Al Fateh Büyük Camii ve Bab Al Bahrain çarşısı. Öğleden sonra serbest zaman; akşam seçilmiş bir restoranda Arap mutfağı deneyimi.",
+          "etiket": "Kültür · Gastronomi",
+          "gorsel": "bahreyn-d2",
+          "alt": "Gün batımında Bahreyn Kalesi"
+        },
+        {
+          "baslik": "Toplantı & Yıl Sonu Galası",
+          "metin": "Sabah yıl değerlendirmesi veya bayi toplantısı. Öğleden sonra grup profiline göre çöl deneyimi ya da otel olanaklarında dinlenme. Akşam kuruma özel dekorasyon, ödül töreni ve sahne programıyla yıl sonu galası.",
+          "etiket": "Toplantı · Gala · Ödül",
+          "gorsel": "bahreyn-d3",
+          "alt": "Bahreyn'de yıl sonu gala gecesi"
+        },
+        {
+          "baslik": "Manama → İstanbul",
+          "metin": "Kahvaltı sonrası uçuş saatine göre geleneksel dhow teknesiyle kısa bir körfez turu veya resortta serbest zaman. Havalimanına transfer ve İstanbul'a dönüş.",
+          "etiket": "Körfez · Veda",
+          "gorsel": "bahreyn-d4",
+          "alt": "Bahreyn kıyısında geleneksel dhow teknesi"
+        }
+      ]
+    },
+    {
+      "sayfa": "ocak-2027-saraybosna-jahorina-kickoff.html",
+      "sure": "3 Gece / 4 Gün",
+      "kapak": "saraybosna",
+      "kapak_alt": "Karlı bir akşamda Saraybosna Başçarşı ve Sebil çeşmesi",
+      "giris": "Yeni yıla güçlü bir başlangıç için kısa uçuş mesafesinde; Saraybosna'nın tarihi dokusunu, Jahorina'nın karlı dağlarında takım deneyimini ve dağ otelinde bir kick-off toplantısını birleştiren program.",
+      "alt_baslik": "Kar, kayak ve yeni yıla güçlü bir başlangıç.",
+      "akis_notu": "Bir gün şehir, bir gün kar: yeni yıl hedeflerini konuşmadan önce ekibi aynı heyecanda buluşturan örnek akış. Vize: Bosna-Hersek Türk vatandaşlarına vizesizdir.",
+      "gunler": [
+        {
+          "baslik": "İstanbul → Saraybosna",
+          "metin": "Saraybosna'ya varış, Golden Bay Tour ekibi tarafından karşılama ve otele transfer. Akşam Başçarşı'da kısa bir yürüyüşün ardından geleneksel Boşnak mutfağıyla karşılama yemeği.",
+          "etiket": "Karşılama · Başçarşı",
+          "gorsel": "saraybosna-d1",
+          "alt": "Saraybosna'da geleneksel restoranda karşılama yemeği"
+        },
+        {
+          "baslik": "Saraybosna'nın Hikâyesi",
+          "metin": "Latin Köprüsü, Gazi Hüsrev Bey Camii ve Başçarşı ile Osmanlı'dan Avusturya-Macaristan'a uzanan şehir hikâyesi. Öğleden sonra serbest zaman; akşam şehir manzaralı bir restoranda yemek.",
+          "etiket": "Şehir · Kültür",
+          "gorsel": "saraybosna-d2",
+          "alt": "Kışın Miljacka Nehri üzerindeki Latin Köprüsü"
+        },
+        {
+          "baslik": "Jahorina Kar Günü",
+          "metin": "Kahvaltı sonrası Jahorina dağına transfer ve dağ oteline yerleşme. Gün boyu seviyeye göre kayak dersleri, kızak yarışları ve kar ayakkabısıyla takım aktiviteleri. Akşam şömine başında kuruma özel kick-off yemeği.",
+          "etiket": "Takım · Kar · Kick-off yemeği",
+          "gorsel": "saraybosna-d3",
+          "alt": "Jahorina'da karda takım aktiviteleri"
+        },
+        {
+          "baslik": "Kick-off Toplantısı & Dönüş",
+          "metin": "Sabah dağ manzaralı salonda yeni yıl hedefleri, bayi kick-off toplantısı veya ödül sunumları. Öğle yemeğinin ardından havalimanına transfer ve İstanbul'a dönüş.",
+          "etiket": "Toplantı · Veda",
+          "gorsel": "saraybosna-d4",
+          "alt": "Karlı dağ manzaralı toplantı salonu"
+        }
+      ]
+    },
+    {
+      "sayfa": "subat-2027-phuket-bangkok.html",
+      "sure": "5 Gece / 6 Gün",
+      "kapak": "phuket",
+      "kapak_alt": "Phang Nga Körfezi kayalıkları ve longtail tekne",
+      "giris": "Kışın ortasında yaz: Bangkok'un tapınakları ve nehir kıyısı enerjisiyle başlayan, Phuket'in tropik sahillerinde ada keşfi ve plajda bir gala gecesiyle taçlanan egzotik ödül programı.",
+      "alt_baslik": "Kışın ortasında tropik bir ödül.",
+      "akis_notu": "İki gün Bangkok, üç gün Phuket: şehir, ada ve plaj gala gecesi aynı yolculukta. Vize: Tayland Türk vatandaşlarına vizesizdir; seyahatten 3 gün önce Dijital Varış Kartı doldurulmalıdır.",
+      "gunler": [
+        {
+          "baslik": "İstanbul → Bangkok",
+          "metin": "Bangkok'a varış, Golden Bay Tour ekibi tarafından karşılama ve otele transfer. Dinlenmenin ardından akşam Chao Phraya Nehri kıyısında, ışıklandırılmış Wat Arun manzarasıyla karşılama yemeği.",
+          "etiket": "Karşılama · Nehir kıyısı",
+          "gorsel": "phuket-d1",
+          "alt": "Bangkok'ta nehir kıyısında karşılama yemeği"
+        },
+        {
+          "baslik": "Bangkok'un Tapınakları",
+          "metin": "Büyük Saray, Zümrüt Buda Tapınağı ve Wat Pho. Öğleden sonra serbest zaman veya alışveriş; akşam şehir manzaralı bir çatı restoranında yemek.",
+          "etiket": "Şehir · Kültür",
+          "gorsel": "phuket-d2",
+          "alt": "Bangkok Büyük Saray"
+        },
+        {
+          "baslik": "Bangkok → Phuket",
+          "metin": "Kahvaltı sonrası Phuket'e iç hat uçuşu ve sahildeki resort otele yerleşme. Günün devamı havuz, plaj ve dinlenme için serbest.",
+          "etiket": "Ada · Resort",
+          "gorsel": "phuket-d3",
+          "alt": "Phuket'te sahil resortu"
+        },
+        {
+          "baslik": "Phi Phi Adaları",
+          "metin": "Kuruma özel sürat tekneleriyle Phi Phi Adaları ve Maya Koyu çevresinde gün boyu ada keşfi, şnorkel molaları ve takım aktiviteleri.",
+          "etiket": "Takım · Deniz",
+          "gorsel": "phuket-d4",
+          "alt": "Phi Phi Adaları'nda sürat teknesi"
+        },
+        {
+          "baslik": "Toplantı & Plaj Galası",
+          "metin": "Sabah resortun toplantı salonunda bayi toplantısı veya başarı sunumları. Öğleden sonra spa ve serbest zaman. Gün batımında plajda kuruma özel dekorasyon ve ödül töreniyle Golden Bay Gala Night.",
+          "etiket": "Toplantı · Gala · Ödül",
+          "gorsel": "phuket-d5",
+          "alt": "Phuket'te plajda gala yemeği"
+        },
+        {
+          "baslik": "Phuket → İstanbul",
+          "metin": "Kahvaltı sonrası uçuş saatine göre resortta serbest zaman. Havalimanına transfer ve İstanbul'a dönüş.",
+          "etiket": "Veda",
+          "gorsel": "phuket-d6",
+          "alt": "Phuket'te sabah teras manzarası"
+        }
+      ]
+    },
+    {
+      "sayfa": "ocak-2027-dubai-abu-dabi.html",
+      "sure": "4 Gece / 5 Gün",
+      "kapak": "dubai-abudabi",
+      "kapak_alt": "Gün batımında Burj Khalifa ve Dubai silueti",
+      "giris": "Yeni yıla prestijli bir başlangıç: Dubai'nin modern enerjisi, eski Dubai'nin dokusu, çölde bir gala gecesi ve Abu Dabi'nin kültür başkenti kimliği tek programda.",
+      "alt_baslik": "Gökdelenlerden çöle, Körfez'de bir ödül.",
+      "akis_notu": "Üç gün Dubai, bir gün Abu Dabi: şehir, kültür, çöl galası ve toplantı dengeli bir örnek akış. Vize: Birleşik Arap Emirlikleri için e-vize gereklidir.",
+      "gunler": [
+        {
+          "baslik": "İstanbul → Dubai",
+          "metin": "Dubai'ye varış, Golden Bay Tour ekibi tarafından karşılama ve otele transfer. Check-in sonrası dinlenme. Akşam Dubai Marina'da yat limanına bakan terasta karşılama yemeği.",
+          "etiket": "Karşılama · Dubai Marina",
+          "gorsel": "dubai-d1",
+          "alt": "Dubai Marina'da teras karşılama yemeği"
+        },
+        {
+          "baslik": "Modern & Eski Dubai",
+          "metin": "Sabah Burj Khalifa ve Downtown Dubai. Öğleden sonra eski Dubai: Al Fahidi tarihi bölgesi, geleneksel abra teknesiyle Dubai Creek geçişi, baharat ve altın çarşıları. Akşam serbest zaman.",
+          "etiket": "Şehir · Kültür",
+          "gorsel": "dubai-creek",
+          "alt": "Dubai Creek'te abra tekneleri ve Al Fahidi"
+        },
+        {
+          "baslik": "Toplantı & Çöl Galası",
+          "metin": "Sabah otelde bayi toplantısı, yeni yıl hedefleri veya ödül sunumları. Öğleden sonra çöl safarisi; gün batımında kum tepelerinde, kuruma özel dekorasyon ve ödül töreniyle çöl kampında Golden Bay Gala Night.",
+          "etiket": "Toplantı · Çöl · Gala",
+          "gorsel": "dubai-col-gala",
+          "alt": "Dubai çölünde kamp gala gecesi"
+        },
+        {
+          "baslik": "Abu Dabi",
+          "metin": "Abu Dabi günü: Şeyh Zayed Büyük Camii, Louvre Abu Dabi ve Qasr Al Watan sarayı. Akşam Dubai'ye dönüş ve serbest zaman.",
+          "etiket": "Kültür · Abu Dabi",
+          "gorsel": "dubai-d3",
+          "alt": "Abu Dabi Şeyh Zayed Büyük Camii"
+        },
+        {
+          "baslik": "Dubai → İstanbul",
+          "metin": "Kahvaltı sonrası uçuş saatine göre serbest zaman ve alışveriş. Havalimanına transfer ve İstanbul'a dönüş.",
+          "etiket": "Veda",
+          "gorsel": "dubai-veda",
+          "alt": "Dubai'de sabah otel terası ve Burj Khalifa"
+        }
+      ]
+    },
+    {
+      "sayfa": "subat-2027-aroya-ege-iskenderiye.html",
+      "sure": "7 Gece / 8 Gün",
+      "kapak": "istanbul-cruise",
+      "kapak_alt": "Gün batımında İstanbul Boğazı'ndan ayrılan kruvaziyer gemisi",
+      "birim": "Durak",
+      "giris": "Uçuşa gerek kalmadan İstanbul'dan kalkan, helal konseptli AROYA gemisiyle Ege'nin incilerini ve İskenderiye'yi bir araya getiren; aile katılımına da uygun bir bayi ödül ve toplantı programı.",
+      "alt_baslik": "Uçuşsuz, helal konsept bir deniz yolculuğu.",
+      "akis_notu": "Örnek sefer: AROYA. Rota: İstanbul → İskenderiye → Marmaris → Kuşadası → İstanbul (7 gece). Şubat 2027 için örnek kalkış: 27 Şubat 2027, dönüş 6 Mart 2027. Rota ve tarih AROYA Türkiye'nin yayımladığı programa göredir; program bu tur veya benzeri bir helal konsept sefer üzerine kurgulanır, kesin tarih ve liman saatleri talep anındaki müsaitliğe göre netleşir. Gemi içi toplantı, gala ve kıyı turları kuruma özel kurgulanır. Vize: İskenderiye'de Mısır'a girişte sınır kapısında 25 USD karşılığında vize alınır.",
+      "gunler": [
+        {
+          "baslik": "İstanbul · Galataport'tan Biniş",
+          "metin": "Golden Bay Tour ekibiyle Galataport'ta grup check-in'i ve gemiye biniş. Boğaz manzarası eşliğinde limandan ayrılış; akşam gemide karşılama yemeği ve tanışma buluşması.",
+          "etiket": "Biniş · Karşılama",
+          "gorsel": "aroya-d1",
+          "alt": "Galataport'ta gemiye biniş"
+        },
+        {
+          "baslik": "İskenderiye",
+          "metin": "Akdeniz kıyısındaki Kayıtbay Kalesi, Bibliotheca Alexandrina ve Corniche sahil yolu.",
+          "etiket": "Liman · Kültür",
+          "gorsel": "aroya-iskenderiye",
+          "alt": "İskenderiye Kayıtbay Kalesi"
+        },
+        {
+          "baslik": "Marmaris",
+          "metin": "Çam ormanlarıyla çevrili koylarda kuruma özel tekne turu, yüzme molaları ve takım aktiviteleri.",
+          "etiket": "Liman · Takım",
+          "gorsel": "aroya-d4",
+          "alt": "Marmaris'te koyda gulet"
+        },
+        {
+          "baslik": "Kuşadası · Efes",
+          "metin": "Rehber eşliğinde Efes Antik Kenti, Celsus Kütüphanesi ve Büyük Tiyatro; ardından Kuşadası'nda serbest zaman.",
+          "etiket": "Liman · Kültür",
+          "gorsel": "aroya-d2",
+          "alt": "Efes'te Celsus Kütüphanesi"
+        },
+        {
+          "baslik": "Denizde Toplantı & Gala",
+          "metin": "Seyir günlerinden birinde, sabah geminin toplantı salonunda bayi toplantısı veya ödül sunumları. Akşam ailelerin de katılabildiği, helal konseptte Golden Bay Gala Night ve ödül töreni.",
+          "etiket": "Toplantı · Gala · Ödül",
+          "gorsel": "aroya-d5",
+          "alt": "Gemide gala yemeği"
+        },
+        {
+          "baslik": "İstanbul'a Varış",
+          "metin": "Gün doğarken Boğaz'dan İstanbul'a giriş. Kahvaltı sonrası Galataport'ta gemiden iniş ve programın sonu.",
+          "etiket": "Veda",
+          "gorsel": "aroya-d6",
+          "alt": "Gün doğumunda Boğaz ve Kız Kulesi"
+        }
+      ],
+      "esnek_not": "Gemi turlarında belirtilen gemi, güzergâh ve tarih örnek seferdir. Katılımcı sayısı, talep zamanı ve gemideki yer durumuna göre aynı sefer ya da benzer bir gemi, güzergâh veya tarih önerilir."
+    },
+    {
+      "sayfa": "mart-2027-doha.html",
+      "sure": "4 Gece / 5 Gün",
+      "kapak": "doha",
+      "kapak_alt": "Doha silueti, gün batımı",
+      "giris": "Körfez'in kültür ve diplomasi başkentinde; dünya çapındaki müzeleri, geleneksel çarşısı, dhow teknesinde bir akşam ve çölün denizle buluştuğu Khor Al Adaid ile prestijli bir toplantı ve ödül programı.",
+      "alt_baslik": "Modern lüks, Arap kültürü ve strateji.",
+      "akis_notu": "Bahar ılıklığında Doha: müzeler, Souq Waqif, Körfez'de dhow akşamı ve çölde iç deniz deneyimi. Vize: Katar Türk vatandaşlarına vizesizdir.",
+      "gunler": [
+        {
+          "baslik": "İstanbul → Doha",
+          "metin": "Doha'ya varış, Golden Bay Tour ekibi tarafından karşılama ve otele transfer. Akşam MIA Park'ta, West Bay silüetine bakan terasta karşılama yemeği.",
+          "etiket": "Karşılama · MIA Park",
+          "gorsel": "doha-d1",
+          "alt": "Doha MIA Park'ta karşılama yemeği"
+        },
+        {
+          "baslik": "Müzeler & Souq Waqif",
+          "metin": "İslam Sanatları Müzesi ve çöl gülünden ilham alan mimarisiyle Katar Ulusal Müzesi. Akşam geleneksel Souq Waqif çarşısında yürüyüş ve yemek.",
+          "etiket": "Kültür · Çarşı",
+          "gorsel": "doha-d2",
+          "alt": "Katar Ulusal Müzesi"
+        },
+        {
+          "baslik": "Toplantı & Dhow Akşamı",
+          "metin": "Sabah otelde bayi toplantısı veya strateji oturumu. Öğleden sonra Katara Kültür Köyü ve The Pearl. Akşam geleneksel dhow teknesinde Doha Körfezi'nde yemekli tur.",
+          "etiket": "Toplantı · Körfez",
+          "gorsel": "doha-d3",
+          "alt": "Doha Körfezi'nde ışıklı dhow teknesi"
+        },
+        {
+          "baslik": "Khor Al Adaid & Gala",
+          "metin": "4x4 araçlarla güneydeki kum tepelerine ve çölün denizle buluştuğu Khor Al Adaid iç denizine safari. Akşam otelde kuruma özel dekorasyon ve ödül töreniyle Golden Bay Gala Night.",
+          "etiket": "Çöl · Gala · Ödül",
+          "gorsel": "doha-d4",
+          "alt": "Khor Al Adaid iç denizi ve kum tepeleri"
+        },
+        {
+          "baslik": "Doha → İstanbul",
+          "metin": "Kahvaltı sonrası uçuş saatine göre Souq Waqif'te son alışveriş ve serbest zaman. Havalimanına transfer ve İstanbul'a dönüş.",
+          "etiket": "Veda",
+          "gorsel": "doha-d5",
+          "alt": "Sabah ışığında Souq Waqif"
+        }
+      ]
+    },
+    {
+      "sayfa": "mart-2027-baku-nevruz.html",
+      "sure": "3 Gece / 4 Gün",
+      "kapak": "baku",
+      "kapak_alt": "Bakü Alev Kuleleri ve Hazar kıyısı",
+      "giris": "Kısa uçuş mesafesinde, aynı dili konuştuğumuz bir başkentte baharı karşılayan Nevruz coşkusu: İçerişehir'in tarihi dokusu, modern Bakü ve ateşin topraktan yükseldiği Yanardağ ile sıcak bir motivasyon programı.",
+      "alt_baslik": "Baharı Nevruz coşkusuyla karşılayın.",
+      "akis_notu": "Nevruz haftasına denk gelen örnek akış: İçerişehir, Haydar Aliyev Merkezi, Yanardağ ve Nevruz temalı gala. Vize: Azerbaycan Türk vatandaşlarına vizesizdir; Türkiye'den giden Türk vatandaşları kimlik kartıyla da giriş yapabilir.",
+      "gunler": [
+        {
+          "baslik": "İstanbul → Bakü",
+          "metin": "Bakü'ye varış, Golden Bay Tour ekibi tarafından karşılama ve otele transfer. Akşam İçerişehir'de, semeni ve Nevruz tatlılarıyla süslenmiş masada karşılama yemeği.",
+          "etiket": "Karşılama · Nevruz sofrası",
+          "gorsel": "baku-d1",
+          "alt": "Bakü İçerişehir'de Nevruz sofrası"
+        },
+        {
+          "baslik": "İçerişehir & Modern Bakü",
+          "metin": "UNESCO Dünya Mirası İçerişehir, Kız Kalesi ve Şirvanşahlar Sarayı. Öğleden sonra Haydar Aliyev Merkezi; akşam Hazar kıyısındaki Bulvar'da yürüyüş.",
+          "etiket": "Şehir · Kültür",
+          "gorsel": "baku-d2",
+          "alt": "Haydar Aliyev Merkezi"
+        },
+        {
+          "baslik": "Toplantı & Nevruz Galası",
+          "metin": "Sabah otelde bayi toplantısı veya bahar dönemi hedefleri. Gün batımında topraktan yükselen alevleriyle Yanardağ. Akşam muğam müziği ve Nevruz temalı dekorasyonla Golden Bay Gala Night.",
+          "etiket": "Toplantı · Yanardağ · Gala",
+          "gorsel": "baku-d3",
+          "alt": "Alacakaranlıkta Yanardağ"
+        },
+        {
+          "baslik": "Bakü → İstanbul",
+          "metin": "Kahvaltı sonrası uçuş saatine göre İçerişehir'de serbest zaman. Havalimanına transfer ve İstanbul'a dönüş.",
+          "etiket": "Veda",
+          "gorsel": "baku-d4",
+          "alt": "Sabah ışığında Kız Kalesi ve İçerişehir"
+        }
+      ]
+    },
+    {
+      "sayfa": "nisan-2027-maldivler.html",
+      "sure": "5 Gece / 6 Gün",
+      "kapak": "maldivler",
+      "kapak_alt": "Maldivler su üstü villaları",
+      "giris": "En yüksek performansı gösterenlere yakışan bir ödül: su üstü villalarda konaklama, mercan resiflerinde keşif ve okyanusun ortasındaki bir kum adacığında unutulmaz bir gala gecesi.",
+      "alt_baslik": "Başarının en saf ödülü.",
+      "akis_notu": "Tek bir ada resortunda geçen, dinlenme ile deneyimi dengeleyen örnek akış; resort ve transfer tipi (deniz uçağı veya sürat teknesi) grup büyüklüğüne göre seçilir. Vize: Maldivler Türk vatandaşlarına vizesizdir.",
+      "gunler": [
+        {
+          "baslik": "İstanbul → Malé → Resort",
+          "metin": "Malé'ye varış, Golden Bay Tour ekibi tarafından karşılama ve deniz uçağı ya da sürat teknesiyle resorta transfer. Su üstü villalara yerleşme; akşam gün batımında karşılama kokteyli.",
+          "etiket": "Karşılama · Deniz uçağı",
+          "gorsel": "maldivler-d1",
+          "alt": "Maldivler'de resorta inen deniz uçağı"
+        },
+        {
+          "baslik": "Resort Günü",
+          "metin": "Villada yüzen kahvaltıyla başlayan serbest gün. Spa, lagün ve plaj; akşam resortun restoranlarından birinde grup yemeği.",
+          "etiket": "Dinlenme · Spa",
+          "gorsel": "maldivler-d2",
+          "alt": "Su üstü villada yüzen kahvaltı"
+        },
+        {
+          "baslik": "Gün Batımında Yunuslar",
+          "metin": "Öğleden sonra resort olanaklarında serbest zaman. Gün batımında geleneksel dhoni teknesiyle yunus gözlem turu ve teknede hafif ikramlar.",
+          "etiket": "Deniz · Takım",
+          "gorsel": "maldivler-d3",
+          "alt": "Dhoni teknesinde yunus gözlemi"
+        },
+        {
+          "baslik": "Toplantı & Mercan Resifleri",
+          "metin": "Sabah resortun toplantı alanında başarı sunumları veya yeni dönem hedefleri. Öğleden sonra rehber eşliğinde şnorkel ile ev resifinde mercanlar, tropik balıklar ve deniz kaplumbağaları.",
+          "etiket": "Toplantı · Şnorkel",
+          "gorsel": "maldivler-d4",
+          "alt": "Maldivler mercan resifi ve deniz kaplumbağası"
+        },
+        {
+          "baslik": "Kum Adacığında Gala",
+          "metin": "Gün serbest. Gün batımında tekneyle lagünün ortasındaki kum adacığına geçiş ve kuruma özel dekorasyon ve ödül töreniyle Golden Bay Gala Night.",
+          "etiket": "Gala · Ödül",
+          "gorsel": "maldivler-d5",
+          "alt": "Kum adacığında gün batımı gala yemeği"
+        },
+        {
+          "baslik": "Resort → İstanbul",
+          "metin": "Kahvaltı sonrası uçuş saatine göre serbest zaman, Malé'ye transfer ve İstanbul'a dönüş.",
+          "etiket": "Veda",
+          "gorsel": "maldivler-d6",
+          "alt": "Sabah resort iskelesi ve deniz uçağı"
+        }
+      ]
+    },
+    {
+      "sayfa": "nisan-2027-marakes-kazablanka.html",
+      "sure": "4 Gece / 5 Gün",
+      "kapak": "marakes",
+      "kapak_alt": "Kutubiye Camii minaresi ve Marakeş",
+      "giris": "Atlas Okyanusu kıyısındaki Kazablanka'dan Kırmızı Şehir Marakeş'e: çarşıların renkleri, bahçelerin dinginliği ve Agafay çölünde Atlas Dağları manzaralı bir gala gecesiyle kültür dolu bir ödül programı.",
+      "alt_baslik": "Kültür, renk ve gizem.",
+      "akis_notu": "Bir gün Kazablanka, üç gün Marakeş: şehir, kültür ve Agafay çölünde gala. Vize: Fas Türk vatandaşlarına vizesizdir.",
+      "gunler": [
+        {
+          "baslik": "İstanbul → Kazablanka",
+          "metin": "Kazablanka'ya varış, Golden Bay Tour ekibi tarafından karşılama. Okyanus kıyısındaki II. Hasan Camii ziyareti; akşam Corniche'te karşılama yemeği.",
+          "etiket": "Karşılama · Atlas Okyanusu",
+          "gorsel": "marakes-d1",
+          "alt": "Kazablanka II. Hasan Camii"
+        },
+        {
+          "baslik": "Kazablanka → Marakeş",
+          "metin": "Kahvaltı sonrası Marakeş'e geçiş ve riad tarzı otele yerleşme. Akşam Cemaa el-Fna Meydanı'nda yürüyüş ve geleneksel Fas mutfağıyla yemek.",
+          "etiket": "Geçiş · Cemaa el-Fna",
+          "gorsel": "marakes-d2",
+          "alt": "Akşam Cemaa el-Fna Meydanı"
+        },
+        {
+          "baslik": "Marakeş'in Renkleri",
+          "metin": "Majorelle Bahçesi, Bahia Sarayı ve medine çarşıları. Öğleden sonra serbest zaman veya hamam deneyimi.",
+          "etiket": "Kültür · Çarşı",
+          "gorsel": "marakes-d3",
+          "alt": "Majorelle Bahçesi"
+        },
+        {
+          "baslik": "Toplantı & Agafay Galası",
+          "metin": "Sabah otelde bayi toplantısı veya başarı sunumları. Öğleden sonra Agafay çölüne geçiş; gün batımında Atlas Dağları manzarası eşliğinde, kuruma özel dekorasyon ve ödül töreniyle Golden Bay Gala Night.",
+          "etiket": "Toplantı · Çöl · Gala",
+          "gorsel": "marakes-d4",
+          "alt": "Agafay çölünde gala yemeği"
+        },
+        {
+          "baslik": "Marakeş → İstanbul",
+          "metin": "Riad avlusunda nane çayı eşliğinde kahvaltı, uçuş saatine göre serbest zaman. Havalimanına transfer ve İstanbul'a dönüş.",
+          "etiket": "Veda",
+          "gorsel": "marakes-d5",
+          "alt": "Marakeş'te riad avlusu"
+        }
+      ]
+    },
+    {
+      "sayfa": "mayis-2027-tiflis-batum.html",
+      "sure": "4 Gece / 5 Gün",
+      "kapak": "tiflis",
+      "kapak_alt": "Tiflis eski şehir ve Narikala Kalesi",
+      "giris": "Komşu Gürcistan'ın iki yüzü: tarihi Tiflis'in sıcak sokakları ve zengin sofraları, ardından Karadeniz kıyısında modern Batum. Gastronomi ve eğlence odaklı, kısa uçuşlu bir motivasyon programı.",
+      "alt_baslik": "Sofrada başlayan, sahilde biten bir yolculuk.",
+      "akis_notu": "Üç gün Tiflis, bir gün Batum: Gürcü sofrası, tarih, toplantı ve Karadeniz kıyısında gala. Dönüş Batum'dan. Vize: Gürcistan Türk vatandaşlarına vizesizdir.",
+      "gunler": [
+        {
+          "baslik": "İstanbul → Tiflis",
+          "metin": "Tiflis'e varış, Golden Bay Tour ekibi tarafından karşılama ve otele transfer. Akşam eski Tiflis'te haçapuri, hinkali ve yerel lezzetlerle donatılmış geleneksel Gürcü sofrasında karşılama yemeği.",
+          "etiket": "Karşılama · Gürcü sofrası",
+          "gorsel": "tiflis-d1",
+          "alt": "Tiflis'te geleneksel Gürcü sofrası"
+        },
+        {
+          "baslik": "Eski Tiflis",
+          "metin": "Teleferikle Narikala Kalesi, Abanotubani kükürtlü hamamlar bölgesi, Barış Köprüsü ve eski şehrin ahşap balkonlu sokakları. Akşam serbest zaman.",
+          "etiket": "Şehir · Kültür",
+          "gorsel": "tiflis-d2",
+          "alt": "Tiflis'te Narikala'ya çıkan teleferik"
+        },
+        {
+          "baslik": "Toplantı & Mtskheta",
+          "metin": "Sabah otelde bayi toplantısı veya yeni dönem hedefleri. Öğleden sonra UNESCO Dünya Mirası Mtskheta ve iki nehrin birleştiği noktaya bakan Cvari Manastırı.",
+          "etiket": "Toplantı · UNESCO",
+          "gorsel": "tiflis-d3",
+          "alt": "Mtskheta ve Cvari Manastırı"
+        },
+        {
+          "baslik": "Tiflis → Batum",
+          "metin": "Sabah Batum'a iç hat uçuşu. Sahil bulvarı, Ali ve Nino heykeli ve modern şehir silueti. Gün batımında Karadeniz manzaralı mekânda kuruma özel dekorasyon ve ödül töreniyle Golden Bay Gala Night.",
+          "etiket": "Karadeniz · Gala · Ödül",
+          "gorsel": "tiflis-d4",
+          "alt": "Batum sahili ve Ali ve Nino heykeli"
+        },
+        {
+          "baslik": "Batum → İstanbul",
+          "metin": "Kahvaltı sonrası Batum Botanik Bahçesi'nde kısa yürüyüş. Uçuş saatine göre havalimanına transfer ve İstanbul'a dönüş.",
+          "etiket": "Veda",
+          "gorsel": "tiflis-d5",
+          "alt": "Batum Botanik Bahçesi ve Karadeniz"
+        }
+      ]
+    },
+    {
+      "sayfa": "mayis-2027-sarm-el-seyh.html",
+      "sure": "4 Gece / 5 Gün",
+      "kapak": "sarm",
+      "kapak_alt": "Kızıldeniz mercan kıyısı ve Sina dağları",
+      "giris": "Baharda Kızıldeniz kıyısında dinlenme ve keşif: dünyaca ünlü mercan resifleri, spa ve wellness, Sina dağlarında Bedevi kampında bir gala gecesi ile resort ağırlıklı bir motivasyon programı.",
+      "alt_baslik": "Kızıldeniz'de bahar, wellness ve keşif.",
+      "akis_notu": "Resort merkezli, dinlenme ile deneyimi dengeleyen örnek akış: Ras Muhammed, wellness ve Sina'da çöl galası. Vize: Mısır'a Şarm El Şeyh'ten girişte sınır kapısında 15 günlük turist vizesi verilir; ücret ve güncel koşullar seyahat öncesinde teyit edilir.",
+      "gunler": [
+        {
+          "baslik": "İstanbul → Şarm El Şeyh",
+          "metin": "Şarm El Şeyh'e varış, Golden Bay Tour ekibi tarafından karşılama ve resorta transfer. Akşam gün batımında Kızıldeniz kıyısında plajda karşılama yemeği.",
+          "etiket": "Karşılama · Plaj",
+          "gorsel": "sarm-d1",
+          "alt": "Kızıldeniz kıyısında plaj karşılama yemeği"
+        },
+        {
+          "baslik": "Ras Muhammed: Yat & Şnorkel",
+          "metin": "Kuruma özel yatla Ras Muhammed Milli Parkı'na gün boyu deniz turu. Dünyanın en zengin mercan resiflerinden birinde rehber eşliğinde şnorkel (isteyenler için tanışma dalışı), güvertede öğle yemeği ve yüzme molaları.",
+          "etiket": "Yat · Şnorkel · Dalış",
+          "gorsel": "sarm-d2",
+          "alt": "Ras Muhammed'de mercan resifleri ve tekne",
+          "ek": [
+            {
+              "gorsel": "sarm-ek-mercan",
+              "alt": "Ras Muhammed'de mercan resifi ve tropik balıklar"
+            },
+            {
+              "gorsel": "sarm-ek-snorkel",
+              "alt": "Yattan şnorkele giren grup"
+            },
+            {
+              "gorsel": "sarm-ek-yat",
+              "alt": "Yat güvertesinde öğle yemeği"
+            }
+          ]
+        },
+        {
+          "baslik": "Toplantı & Wellness",
+          "metin": "Sabah resortun toplantı salonunda bayi toplantısı veya başarı sunumları. Öğleden sonra spa, wellness ve resort olanaklarında serbest zaman.",
+          "etiket": "Toplantı · Spa",
+          "gorsel": "sarm-d3",
+          "alt": "Kızıldeniz kıyısında wellness alanı"
+        },
+        {
+          "baslik": "Sina Çölü & Gala",
+          "metin": "Öğleden sonra 4x4 araçlarla Sina dağlarına çöl safarisi. Gün batımında Bedevi kampında, yıldızların altında kuruma özel dekorasyon ve ödül töreniyle Golden Bay Gala Night.",
+          "etiket": "Çöl · Gala · Ödül",
+          "gorsel": "sarm-d4",
+          "alt": "Sina dağlarında Bedevi kampı gala yemeği"
+        },
+        {
+          "baslik": "Şarm El Şeyh → İstanbul",
+          "metin": "Kahvaltı sonrası uçuş saatine göre Eski Çarşı ve Sahabe Camii çevresinde kısa tur. Havalimanına transfer ve İstanbul'a dönüş.",
+          "etiket": "Veda",
+          "gorsel": "sarm-d5",
+          "alt": "Şarm El Şeyh Eski Çarşı ve Sahabe Camii"
+        }
+      ]
+    },
+    {
+      "sayfa": "haziran-2027-budva-kotor.html",
+      "sure": "4 Gece / 5 Gün",
+      "kapak": "kotor",
+      "kapak_alt": "Kotor Körfezi ve surlu eski şehir",
+      "giris": "Adriyatik'in en etkileyici kıyılarından biri: surlarla çevrili Budva, fiyort görünümlü Kotor Körfezi ve Sveti Stefan. Kısa uçuşlu ve yaz sezonunu kuruma özel yat günüyle açan bir motivasyon programı.",
+      "alt_baslik": "Surların içinde akşam, körfezde sabah, yatta öğle.",
+      "akis_notu": "Konaklama Budva'da. Uçuşlar İstanbul–Tivat veya İstanbul–Podgorica olarak planlanır. Yat günü ve gala mekânı katılımcı sayısına göre kuruma özel seçilir. Vize: Karadağ şu an Türk vatandaşlarına vizesizdir; 01.11.2026 itibarıyla giriş kuralları güncellenecektir, güncel durum rezervasyon sırasında teyit edilir.",
+      "gunler": [
+        {
+          "baslik": "İstanbul → Budva",
+          "metin": "Tivat veya Podgorica'ya varış, Golden Bay Tour ekibi tarafından karşılama ve Budva'daki otele transfer. Akşam surlarla çevrili Budva eski şehrinde taş avluda deniz ürünleri ağırlıklı karşılama yemeği.",
+          "etiket": "Karşılama · Eski şehir",
+          "gorsel": "budva-d1",
+          "alt": "Budva eski şehrinde karşılama yemeği"
+        },
+        {
+          "baslik": "Kotor Körfezi & Perast",
+          "metin": "UNESCO Dünya Mirası Kotor eski şehrinde rehberli yürüyüş. Ardından barok köyü Perast ve tekneyle Our Lady of the Rocks (Gospa od Škrpjela) adacığına kısa geçiş. Öğle yemeği körfez kıyısında.",
+          "etiket": "UNESCO · Körfez",
+          "gorsel": "budva-d2",
+          "alt": "Perast önünde Our Lady of the Rocks adacığına tekne"
+        },
+        {
+          "baslik": "Toplantı & Yat Günü",
+          "metin": "Sabah deniz manzaralı toplantı salonunda bayi toplantısı veya yeni dönem hedefleri. Öğleden sonra kuruma özel yatla Budva Rivierası: Sveti Nikola adası, kalabalıktan uzak koylarda yüzme ve şnorkel molaları, güvertede öğle yemeği.",
+          "etiket": "Toplantı · Yat · Şnorkel",
+          "gorsel": "budva-d3",
+          "alt": "Adriyatik manzaralı toplantı salonu",
+          "ek": [
+            {
+              "gorsel": "budva-ek-yat",
+              "alt": "Yat güvertesinde öğle yemeği"
+            },
+            {
+              "gorsel": "budva-ek-snorkel",
+              "alt": "Berrak Adriyatik koyunda şnorkel"
+            },
+            {
+              "gorsel": "budva-ek-koy",
+              "alt": "Gizli bir koyda demirli yat"
+            }
+          ]
+        },
+        {
+          "baslik": "Sveti Stefan & Gala",
+          "metin": "Gün boyu serbest zaman: plaj, spa veya alışveriş. Gün batımında Sveti Stefan adacığına bakan terasta kuruma özel dekorasyon ve ödül töreniyle Golden Bay Gala Night.",
+          "etiket": "Serbest · Gala · Ödül",
+          "gorsel": "budva-d4",
+          "alt": "Sveti Stefan manzaralı gala gecesi"
+        },
+        {
+          "baslik": "Kotor → İstanbul",
+          "metin": "Erken saatte isteyenler için Kotor surlarından körfez manzarası. Uçuş saatine göre havalimanına transfer ve İstanbul'a dönüş.",
+          "etiket": "Veda",
+          "gorsel": "budva-d5",
+          "alt": "Kotor surlarından körfez manzarası"
+        }
+      ]
+    },
+    {
+      "sayfa": "haziran-2027-viva-enjoy-tuna.html",
+      "sure": "7 Gece / 8 Gün",
+      "kapak": "tuna-viva",
+      "kapak_alt": "Wachau vadisinde Tuna nehri ve nehir gemisi",
+      "giris": "Budapeşte'den başlayıp yine Budapeşte'de biten, Avrupa'nın dört başkent ve kültür durağını tek bavulla gezen bir nehir yolculuğu: Bratislava, Wachau vadisi ve Melk, Passau, Linz ve Viyana. İstanbul'dan Budapeşte'ye direkt uçuşla ulaşılır, aktarma ve uzun transfer yoktur. Örnek gemimiz 190 misafirlik butik VIVA ENJOY; bu veya benzeri modern bir nehir gemisinde her şey dahil konaklama, toplantı ve networking için ideal bir ortam.",
+      "alt_baslik": "Her sabah yeni bir şehir, her akşam aynı kabin.",
+      "akis_notu": "Örnek sefer: VIVA ENJOY (VIVA Cruises) ile Budapeşte çıkışlı Tuna rotası. Budapeşte → Bratislava → Melk → Passau → Linz → Viyana → Budapeşte (7 gece). Haziran 2027 için örnek kalkış: 2 Haziran 2027, dönüş 9 Haziran 2027. Program bu tur veya benzeri bir Tuna nehri seferi üzerine kurgulanır; kesin gemi, tarih ve liman saatleri talep anındaki müsaitliğe göre netleşir. Gemide tam pansiyon, gün boyu içecekler, bahşişler, liman ücretleri ve gemi programındaki geziler dahildir. Uçuşlar İstanbul–Budapeşte–İstanbul olarak planlanır. Vize: Schengen vizesi gereklidir.",
+      "gunler": [
+        {
+          "baslik": "İstanbul → Budapeşte · Biniş",
+          "metin": "Budapeşte'ye direkt uçuş, Golden Bay Tour ekibi tarafından karşılama ve limana transfer. Gemiye biniş ve Parlamento manzaralı güvertede karşılama kokteyli. Gemi 18:00'de Tuna'ya açılır; akşam gemide hoş geldin yemeği.",
+          "etiket": "Biniş · Karşılama",
+          "gorsel": "viva-d1",
+          "alt": "Budapeşte'de gemi güvertesinde karşılama kokteyli"
+        },
+        {
+          "baslik": "Bratislava",
+          "metin": "Sabah seyir ve gemide serbest zaman. Öğlen Bratislava'ya varış (12:00–19:00): eski şehir, ana meydan ve Bratislava Kalesi; meydanda kahve molası. Akşam gemide yemek ve Avusturya'ya seyir.",
+          "etiket": "Başkent · Şehir",
+          "gorsel": "tuna-d6",
+          "alt": "Bratislava eski şehir meydanında kahve molası"
+        },
+        {
+          "baslik": "Wachau Vadisi & Melk",
+          "metin": "Sabah UNESCO Dünya Mirası Wachau vadisinin teraslı bağları arasından seyir. Öğlen Melk'e varış (12:30–19:00) ve Tuna'ya hâkim barok Melk Manastırı ziyareti.",
+          "etiket": "UNESCO · Barok",
+          "gorsel": "tuna-d7",
+          "alt": "Melk Manastırı ve Tuna'da nehir gemisi"
+        },
+        {
+          "baslik": "Passau",
+          "metin": "Öğlen üç nehrin buluştuğu Passau'ya varış (13:00–21:30). St. Stephan Katedrali ve eski şehirde yürüyüş. Akşam gün batımında güvertede kokteyl.",
+          "etiket": "Üç nehir · Kokteyl",
+          "gorsel": "tuna-d1",
+          "alt": "Passau katedrali önünde güvertede kokteyl"
+        },
+        {
+          "baslik": "Gemide Toplantı & Linz",
+          "metin": "Gemi sabah erken saatlerde Linz'e yanaşır (18:00'e kadar). Sabah panoramik salonda bayi toplantısı veya yeni dönem sunumu. Öğleden sonra Linz eski şehri ve Tuna kıyısında serbest zaman.",
+          "etiket": "Toplantı · Şehir",
+          "gorsel": "tuna-d5",
+          "alt": "Gemi salonunda Tuna manzaralı toplantı"
+        },
+        {
+          "baslik": "Viyana",
+          "metin": "Sabah 08:30'da Viyana'ya varış ve gece 22:00'ye kadar şehirde: Schönbrunn Sarayı, Ringstraße ve geleneksel bir Viyana kahve evinde mola. Akşam isteğe bağlı klasik müzik konseri.",
+          "etiket": "Başkent · Kültür",
+          "gorsel": "tuna-d3",
+          "alt": "Schönbrunn Sarayı önünde grup"
+        },
+        {
+          "baslik": "Budapeşte & Gala",
+          "metin": "Öğleden sonra 13:30'da Budapeşte'ye dönüş. Parlamento, Balıkçı Tabyası ve Zincirli Köprü. Akşam ışıklı Parlamento manzaralı bir mekânda kuruma özel dekorasyon ve ödül töreniyle Golden Bay Gala Night.",
+          "etiket": "Başkent · Gala · Ödül",
+          "gorsel": "tuna-d4",
+          "alt": "Budapeşte Parlamentosu manzaralı gala yemeği"
+        },
+        {
+          "baslik": "Budapeşte → İstanbul",
+          "metin": "Güvertede veda kahvaltısı ve grup fotoğrafı. Gemiden ayrılış, uçuş saatine göre şehirde serbest zaman ve havalimanına transfer; İstanbul'a dönüş.",
+          "etiket": "Veda",
+          "gorsel": "viva-d8",
+          "alt": "Budapeşte'de gemide veda kahvaltısı ve grup fotoğrafı"
+        }
+      ],
+      "esnek_not": "Gemi turlarında belirtilen gemi, güzergâh ve tarih örnek seferdir. Katılımcı sayısı, talep zamanı ve gemideki yer durumuna göre aynı sefer ya da benzer bir gemi, güzergâh veya tarih önerilir."
+    },
+    {
+      "sayfa": "temmuz-2027-tunus.html",
+      "sure": "5 Gece / 6 Gün",
+      "kapak": "sidi-bou-said",
+      "kapak_alt": "Sidi Bou Said'in mavi kapıları ve Akdeniz",
+      "giris": "Kısa uçuşla ulaşılan, vizesiz ve Akdeniz'in en egzotik yüzlerinden biri: Hammamet'in plajlı resortları, mavi-beyaz Sidi Bou Said, Kartaca'nın izleri ve El Cem'in görkemli amfitiyatrosu. Resort konforu ile kültürü bir arada sunan bir yaz motivasyon programı.",
+      "alt_baslik": "Mavi kapılar, antik taşlar ve Akdeniz'de bir yaz.",
+      "akis_notu": "Konaklama Hammamet'te deniz kenarı bir resortta. Uçuşlar İstanbul–Tunus olarak planlanır, havalimanı ile Hammamet arası yaklaşık bir saattir. Gala mekânı ve tema katılımcı sayısına göre kuruma özel seçilir. Vize: Tunus Türk vatandaşlarına vizesizdir.",
+      "gunler": [
+        {
+          "baslik": "İstanbul → Tunus → Hammamet",
+          "metin": "Tunus'a varış, Golden Bay Tour ekibi tarafından karşılama ve Hammamet'teki resorta transfer. Akşam deniz kıyısındaki terasta kuskus, brik ve ızgara balıkla karşılama yemeği.",
+          "etiket": "Karşılama · Resort",
+          "gorsel": "tunus-d1",
+          "alt": "Hammamet'te sahil terasında karşılama yemeği"
+        },
+        {
+          "baslik": "Kartaca & Sidi Bou Said",
+          "metin": "Kartaca antik kentinde Antoninus Hamamları ve Byrsa Tepesi. Ardından mavi kapıları ve beyaz evleriyle Sidi Bou Said'de yürüyüş ve körfeze bakan kafede çamfıstıklı nane çayı molası.",
+          "etiket": "UNESCO · Kültür",
+          "gorsel": "tunus-d2",
+          "alt": "Sidi Bou Said'in mavi-beyaz sokakları"
+        },
+        {
+          "baslik": "Toplantı & Resort",
+          "metin": "Sabah resortun toplantı salonunda bayi toplantısı veya yeni dönem hedefleri. Öğleden sonra plaj, spa ve resort olanaklarında serbest zaman; isteyenler için Hammamet medinasında kısa yürüyüş.",
+          "etiket": "Toplantı · Serbest",
+          "gorsel": "tunus-d3",
+          "alt": "Hammamet'te resort toplantı salonu"
+        },
+        {
+          "baslik": "El Cem Amfitiyatrosu",
+          "metin": "Gün boyu gezi: dünyanın en iyi korunmuş Roma amfitiyatrolarından biri olan, UNESCO Dünya Mirası El Cem. Dönüşte Sousse medinasında kısa mola.",
+          "etiket": "UNESCO · Tarih",
+          "gorsel": "tunus-d4",
+          "alt": "El Cem Roma amfitiyatrosu"
+        },
+        {
+          "baslik": "Serbest Gün & Gala",
+          "metin": "Gün boyu serbest zaman ve deniz keyfi. Akşam fenerlerle aydınlatılmış, Tunus mimarisinde bir avluda kuruma özel dekorasyon, yerel müzik ve ödül töreniyle Golden Bay Gala Night.",
+          "etiket": "Serbest · Gala · Ödül",
+          "gorsel": "tunus-d5",
+          "alt": "Fenerlerle aydınlatılmış avluda gala gecesi"
+        },
+        {
+          "baslik": "Tunus Medinası → İstanbul",
+          "metin": "Kahvaltı sonrası UNESCO Dünya Mirası Tunus medinasında Zeytune Camii çevresi ve kapalı çarşılarda seramik ve baharat alışverişi. Uçuş saatine göre havalimanına transfer ve İstanbul'a dönüş.",
+          "etiket": "Çarşı · Veda",
+          "gorsel": "tunus-d6",
+          "alt": "Tunus medinasında kapalı çarşı"
+        }
+      ]
+    },
+    {
+      "sayfa": "temmuz-2027-venedik-adriyatik-ege-cruise.html",
+      "sure": "8 Gece / 9 Gün",
+      "kapak": "venedik-cruise",
+      "kapak_alt": "Venedik açıklarında Adriyatik'te kruvaziyer gemisi",
+      "esnek_not": "Gemi turlarında belirtilen gemi, güzergâh ve tarih örnek seferdir. Katılımcı sayısı, talep zamanı ve gemideki yer durumuna göre aynı sefer ya da benzer bir gemi, güzergâh veya tarih önerilir.",
+      "giris": "Venedik'te bir gece, ardından Adriyatik ve Ege'yi tek gemide birleştiren yedi gecelik bir yolculuk: Kotor Körfezi, Mikonos'un gün batımı, Siros'un neoklasik limanı ve Ankona. Toplantı salonu, gala restoranı ve gemi olanaklarıyla kalabalık gruplar için kolay yönetilen bir cruise programı.",
+      "alt_baslik": "Gondolla başlayan, gün batımında Ege'de devam eden bir yaz.",
+      "akis_notu": "Örnek sefer: MSC Lirica. Rota: Venedik → Kotor → denizde → Mikonos → Siros → denizde → Ankona → Venedik (7 gece). Temmuz 2027 için örnek kalkış: 17 Temmuz 2027, dönüş 24 Temmuz 2027; programa bir gece Venedik konaklaması eklenmiştir. Program bu tur veya benzeri bir sefer üzerine kurgulanır; kesin gemi, tarih ve liman saatleri talep anındaki müsaitliğe göre netleşir. Uçuşlar İstanbul–Venedik–İstanbul olarak planlanır. Vize: Schengen vizesi gereklidir. Kotor (Karadağ) durağı için giriş kuralları 01.11.2026 itibarıyla güncellenecektir.",
+      "gunler": [
+        {
+          "baslik": "İstanbul → Venedik",
+          "metin": "Venedik'e varış, Golden Bay Tour ekibi tarafından karşılama ve otele transfer. Akşam kanal kıyısında bir restoranda karşılama yemeği.",
+          "etiket": "Karşılama · Venedik",
+          "gorsel": "venedik-d1",
+          "alt": "Venedik'te kanal kıyısında karşılama yemeği"
+        },
+        {
+          "baslik": "Venedik & Gemiye Biniş",
+          "metin": "Sabah San Marco Meydanı, Doçlar Sarayı ve gondol turu. Öğleden sonra limana transfer, gemiye biniş ve akşamüstü Adriyatik'e açılış.",
+          "etiket": "Gondol · Biniş",
+          "gorsel": "venedik-d2",
+          "alt": "San Marco önünde gondol turu"
+        },
+        {
+          "baslik": "Kotor",
+          "metin": "Fiyort görünümlü Kotor Körfezi'nden giriş ve UNESCO Dünya Mirası Kotor eski şehrinde rehberli yürüyüş. Akşam gemide yemek.",
+          "etiket": "UNESCO · Körfez",
+          "gorsel": "venedik-d3",
+          "alt": "Kotor Körfezi'nde kruvaziyer gemisi"
+        },
+        {
+          "baslik": "Denizde Toplantı",
+          "metin": "Seyir günü. Sabah geminin konferans salonunda bayi toplantısı veya yeni dönem sunumu, öğleden sonra havuz, spa ve gemi olanaklarında serbest zaman.",
+          "etiket": "Toplantı · Seyir",
+          "gorsel": "venedik-d4",
+          "alt": "Gemideki konferans salonunda toplantı"
+        },
+        {
+          "baslik": "Mikonos",
+          "metin": "Öğleden sonra Mikonos'a varış ve gece yarısına kadar adada. Yel değirmenleri, Küçük Venedik'te gün batımı ve beyaz sokaklarda akşam yürüyüşü.",
+          "etiket": "Ege · Gün batımı",
+          "gorsel": "venedik-d5",
+          "alt": "Mikonos'ta Küçük Venedik'te gün batımı"
+        },
+        {
+          "baslik": "Siros",
+          "metin": "Kiklad adalarının başkenti Siros'ta Ermupoli'nin neoklasik konakları, mermer kaplı Miaouli Meydanı ve tepedeki kiliselerden liman manzarası.",
+          "etiket": "Ada · Kültür",
+          "gorsel": "venedik-d6",
+          "alt": "Siros'ta Ermupoli Miaouli Meydanı"
+        },
+        {
+          "baslik": "Denizde Gala",
+          "metin": "Seyir günü ve dinlenme. Akşam geminin restoranında kuruma özel ödül töreniyle Golden Bay Gala Night.",
+          "etiket": "Seyir · Gala · Ödül",
+          "gorsel": "venedik-d7",
+          "alt": "Gemi restoranında gala gecesi"
+        },
+        {
+          "baslik": "Ankona",
+          "metin": "İtalya'nın Adriyatik kıyısındaki Ankona'da tepedeki San Ciriaco Katedrali ve liman manzarası; isteyenler için Loreto'ya kısa gezi.",
+          "etiket": "İtalya · Kıyı",
+          "gorsel": "venedik-d8",
+          "alt": "Ankona'da San Ciriaco Katedrali"
+        },
+        {
+          "baslik": "Venedik → İstanbul",
+          "metin": "Sabah Venedik'e varış ve kahvaltı sonrası gemiden iniş. Havalimanına transfer ve İstanbul'a dönüş.",
+          "etiket": "Veda",
+          "gorsel": "venedik-d9",
+          "alt": "Venedik'e varışta güvertede kahvaltı"
+        }
+      ]
+    },
+    {
+      "sayfa": "agustos-2027-balkanlar-turu.html",
+      "sure": "5 Gece / 6 Gün",
+      "kapak": "ohrid",
+      "kapak_alt": "Ohrid Gölü üzerinde Kaneo Kilisesi",
+      "giris": "Osmanlı izlerini taşıyan Üsküp'ten Balkanlar'ın incisi Ohrid Gölü'ne, oradan Arnavutluk'un renkli başkenti Tiran'a uzanan, vizesiz ve kısa uçuşlu bir yaz programı. Tarih, doğa ve göl kıyısında bir gala; aile katılımına da uygun.",
+      "alt_baslik": "Taş köprüden göl kıyısına, bir yazın Balkan hikâyesi.",
+      "akis_notu": "Varış Üsküp'e, dönüş Tiran'dan planlanır; iki şehir arası kara transferleri dahildir. Konaklama Üsküp'te bir, Ohrid'de üç gece. Vize: Kuzey Makedonya ve Arnavutluk Türk vatandaşlarına vizesizdir.",
+      "gunler": [
+        {
+          "baslik": "İstanbul → Üsküp",
+          "metin": "Üsküp'e varış, Golden Bay Tour ekibi tarafından karşılama ve otele transfer. Akşam Taş Köprü, Eski Çarşı ve Mustafa Paşa Camii çevresinde yürüyüş, ardından geleneksel Balkan mutfağıyla karşılama yemeği.",
+          "etiket": "Karşılama · Eski Çarşı",
+          "gorsel": "balkan-d1",
+          "alt": "Üsküp'te Taş Köprü ve Eski Çarşı"
+        },
+        {
+          "baslik": "Matka Kanyonu → Ohrid",
+          "metin": "Sabah zümrüt yeşili Matka Kanyonu'nda kısa tekne turu ve Aziz Andrea Manastırı. Öğleden sonra Ohrid'e transfer ve göl kıyısındaki otele yerleşme.",
+          "etiket": "Doğa · Transfer",
+          "gorsel": "balkan-d2",
+          "alt": "Matka Kanyonu'nda tekne turu"
+        },
+        {
+          "baslik": "Toplantı & Ohrid Eski Şehir",
+          "metin": "Sabah göl manzaralı terasta bayi toplantısı veya yeni dönem hedefleri. Öğleden sonra UNESCO Dünya Mirası Ohrid eski şehri, Samuel Kalesi ve antik tiyatro.",
+          "etiket": "Toplantı · UNESCO",
+          "gorsel": "balkan-d3",
+          "alt": "Ohrid Gölü manzaralı terasta toplantı"
+        },
+        {
+          "baslik": "Sveti Naum",
+          "metin": "Gölün güneyindeki Sveti Naum Manastırı ve berrak su kaynakları; isteyenler için kaynak sularında kayıkla kısa gezinti. Öğle yemeği göl kıyısında, öğleden sonra plaj ve serbest zaman.",
+          "etiket": "Göl · Doğa",
+          "gorsel": "balkan-d4",
+          "alt": "Sveti Naum Manastırı ve kaynak suları"
+        },
+        {
+          "baslik": "Serbest Gün & Gala",
+          "metin": "Gün boyu serbest zaman ve göl keyfi. Gün batımında Kaneo Kilisesi'ne bakan göl kıyısı terasında kuruma özel dekorasyon ve ödül töreniyle Golden Bay Gala Night.",
+          "etiket": "Serbest · Gala · Ödül",
+          "gorsel": "balkan-d5",
+          "alt": "Ohrid Gölü kıyısında gala gecesi"
+        },
+        {
+          "baslik": "Ohrid → Tiran → İstanbul",
+          "metin": "Sabah Tiran'a transfer (yaklaşık üç saat). İskender Bey Meydanı, Ethem Bey Camii ve renkli Blloku semtinde kısa tur. Uçuş saatine göre havalimanına transfer ve İstanbul'a dönüş.",
+          "etiket": "Başkent · Veda",
+          "gorsel": "balkan-d6",
+          "alt": "Tiran'da İskender Bey Meydanı"
+        }
+      ]
+    },
+    {
+      "sayfa": "agustos-2027-zanzibar.html",
+      "sure": "6 Gece / 7 Gün",
+      "kapak": "zanzibar",
+      "kapak_alt": "Zanzibar sahili ve geleneksel dhow teknesi",
+      "giris": "Hint Okyanusu'nun beyaz kumlu sahilleri, Stone Town'un tarihi sokakları, Mnemba mercan resifi ve gün batımında dhow yelkenleri. Top performer grupları için egzotik ve unutulmaz bir yaz sonu ödül programı.",
+      "alt_baslik": "Baharat kokulu sokaklardan mercan resiflerine.",
+      "akis_notu": "Konaklama Zanzibar'ın kuzeyinde, Nungwi veya Kendwa'da sahil resortunda. Uçuşlar İstanbul–Zanzibar olarak planlanır. Vize: Tanzanya için e-vize gereklidir; seyahat öncesi sağlık gereklilikleri ayrıca bilgilendirilir.",
+      "gunler": [
+        {
+          "baslik": "İstanbul → Zanzibar",
+          "metin": "Zanzibar'a varış, Golden Bay Tour ekibi tarafından karşılama ve kuzey sahilindeki resorta transfer. Akşam gün batımında kumsalda karşılama yemeği.",
+          "etiket": "Karşılama · Sahil",
+          "gorsel": "zanzibar-d1",
+          "alt": "Zanzibar'da kumsalda karşılama yemeği"
+        },
+        {
+          "baslik": "Stone Town & Baharat Turu",
+          "metin": "UNESCO Dünya Mirası Stone Town'da oymalı Zanzibar kapıları, Eski Kale ve dar sokaklar; ardından baharat çiftliğinde karanfil, tarçın ve vanilya turu. Akşam Forodhani Bahçeleri'nde yerel lezzetler.",
+          "etiket": "UNESCO · Baharat",
+          "gorsel": "zanzibar-d2",
+          "alt": "Stone Town'da oymalı kapılar ve dar sokaklar"
+        },
+        {
+          "baslik": "Toplantı & Resort",
+          "metin": "Sabah okyanus manzaralı açık hava pavyonunda bayi toplantısı veya başarı sunumları. Öğleden sonra plaj, spa ve resort olanaklarında serbest zaman.",
+          "etiket": "Toplantı · Serbest",
+          "gorsel": "zanzibar-d3",
+          "alt": "Okyanus manzaralı açık hava toplantı pavyonu"
+        },
+        {
+          "baslik": "Dhow & Mnemba Atolü",
+          "metin": "Geleneksel dhow teknesiyle Mnemba Atolü'ne gün boyu deniz turu. Rehber eşliğinde mercan resiflerinde şnorkel, şanslı olanlar için deniz kaplumbağaları ve yunuslar; kum adacığında öğle yemeği.",
+          "etiket": "Dhow · Şnorkel · Mercan",
+          "gorsel": "zanzibar-d4",
+          "alt": "Mnemba Atolü açıklarında dhow teknesi",
+          "ek": [
+            {
+              "gorsel": "zanzibar-ek-mercan",
+              "alt": "Mnemba'da mercan resifi ve deniz kaplumbağası"
+            },
+            {
+              "gorsel": "zanzibar-ek-snorkel",
+              "alt": "Mercanlar üzerinde şnorkel"
+            },
+            {
+              "gorsel": "zanzibar-ek-kumada",
+              "alt": "Kum adacığında deniz ürünleri öğle yemeği"
+            }
+          ]
+        },
+        {
+          "baslik": "Güney Sahili & The Rock",
+          "metin": "Adanın güneydoğusuna gezi ve denizin ortasındaki kayanın üzerinde kurulu ünlü The Rock restoranında öğle yemeği. Akşam serbest.",
+          "etiket": "Gastronomi · Keşif",
+          "gorsel": "zanzibar-d5",
+          "alt": "Denizin ortasında The Rock restoranı"
+        },
+        {
+          "baslik": "Serbest Gün & Gala",
+          "metin": "Gün boyu serbest zaman. Akşam kumsalda yüzlerce fener ve mum ışığında, taarab müziği eşliğinde kuruma özel ödül töreniyle Golden Bay Gala Night.",
+          "etiket": "Serbest · Gala · Ödül",
+          "gorsel": "zanzibar-d6",
+          "alt": "Kumsalda fenerlerle gala gecesi"
+        },
+        {
+          "baslik": "Zanzibar → İstanbul",
+          "metin": "Sabah sahilde son yürüyüş ve kahvaltı. Uçuş saatine göre havalimanına transfer ve İstanbul'a dönüş.",
+          "etiket": "Veda",
+          "gorsel": "zanzibar-d7",
+          "alt": "Gün doğumunda Zanzibar sahili"
+        }
+      ]
+    },
+    {
+      "sayfa": "eylul-2027-singapur-penang-cruise.html",
+      "sure": "6 Gece / 7 Gün",
+      "kapak": "singapur-cruise",
+      "kapak_alt": "Marina Bay Sands ve Singapur silueti",
+      "esnek_not": "Gemi turlarında belirtilen gemi, güzergâh ve tarih örnek seferdir. Katılımcı sayısı, talep zamanı ve gemideki yer durumuna göre aynı sefer ya da benzer bir gemi, güzergâh veya tarih önerilir.",
+      "giris": "Asya'nın en modern şehri Singapur'da iki gece, ardından Malezya'nın renkli Penang adası ve Tayland'ın Phuket'i üzerinden kısa ve yoğun bir gemi yolculuğu. Şehir, kültür ve deniz bir arada; top performer grupları için premium bir Asya deneyimi.",
+      "alt_baslik": "Gökdelenlerden sokak sanatına, Asya'nın üç yüzü.",
+      "akis_notu": "Örnek sefer: Royal Caribbean Navigator of the Seas. Rota: Singapur → Penang → Phuket → denizde → Singapur (4 gece). Eylül 2027 için örnek kalkış: 12 Eylül 2027, dönüş 16 Eylül 2027; programa iki gece Singapur konaklaması eklenmiştir. Bu rotada ay içinde başka kalkışlar da bulunmaktadır. Program bu tur veya benzeri bir sefer üzerine kurgulanır; kesin gemi, tarih ve liman saatleri talep anındaki müsaitliğe göre netleşir. Uçuşlar İstanbul–Singapur–İstanbul olarak planlanır. Vize: Singapur Türk vatandaşlarına vizesizdir. Malezya'ya girişte ücretsiz vize verilir, seyahatten 3 gün önce dijital seyahat formu doldurulmalıdır. Tayland vizesizdir, seyahatten 3 gün önce Dijital Varış Kartı doldurulmalıdır.",
+      "gunler": [
+        {
+          "baslik": "İstanbul → Singapur",
+          "metin": "Singapur'a varış, Golden Bay Tour ekibi tarafından karşılama ve otele transfer. Akşam Marina Bay manzaralı bir çatı terasında karşılama yemeği.",
+          "etiket": "Karşılama · Marina Bay",
+          "gorsel": "singapur-d1",
+          "alt": "Marina Bay manzaralı çatı terasında karşılama"
+        },
+        {
+          "baslik": "Toplantı & Gardens by the Bay",
+          "metin": "Sabah otelde bayi toplantısı veya yeni dönem hedefleri. Öğleden sonra Gardens by the Bay'de Supertree Grove ve Skyway, akşam Marina Bay ışık gösterisi.",
+          "etiket": "Toplantı · Şehir",
+          "gorsel": "singapur-d2",
+          "alt": "Gardens by the Bay Supertree Grove"
+        },
+        {
+          "baslik": "Gemiye Biniş",
+          "metin": "Öğle saatlerinde Marina Bay Cruise Centre'a transfer, gemiye biniş ve gemi olanaklarıyla tanışma. Akşamüstü Singapur silueti eşliğinde limandan ayrılış.",
+          "etiket": "Biniş · Seyir",
+          "gorsel": "singapur-d3",
+          "alt": "Singapur'da kruvaziyer limanı"
+        },
+        {
+          "baslik": "Penang",
+          "metin": "UNESCO Dünya Mirası George Town'da renkli koloni dükkân evleri, ünlü sokak sanatı duvarları ve trishaw turu; Malezya mutfağından lezzet durakları.",
+          "etiket": "UNESCO · Sokak sanatı",
+          "gorsel": "singapur-d4",
+          "alt": "Penang George Town'da sokak sanatı"
+        },
+        {
+          "baslik": "Phuket",
+          "metin": "Phuket'e varış. Sino-Portekiz mimarisiyle Phuket Old Town, Big Buddha manzara noktası veya plajda serbest zaman.",
+          "etiket": "Tayland · Keşif",
+          "gorsel": "singapur-d5",
+          "alt": "Phuket Old Town'da renkli dükkân evleri"
+        },
+        {
+          "baslik": "Denizde Gala",
+          "metin": "Seyir günü: havuz, spa ve gemi olanaklarında dinlenme. Akşam geminin restoranında kuruma özel ödül töreniyle Golden Bay Gala Night.",
+          "etiket": "Seyir · Gala · Ödül",
+          "gorsel": "singapur-d6",
+          "alt": "Gemi restoranında gala gecesi"
+        },
+        {
+          "baslik": "Singapur → İstanbul",
+          "metin": "Sabah Singapur'a varış ve gemiden iniş. Uçuş öncesi Jewel Changi'de Rain Vortex şelalesi ve kapalı orman; ardından İstanbul'a dönüş.",
+          "etiket": "Jewel · Veda",
+          "gorsel": "singapur-d7",
+          "alt": "Jewel Changi Rain Vortex şelalesi"
+        }
+      ]
+    },
+    {
+      "sayfa": "eylul-2027-semerkant-buhara.html",
+      "sure": "5 Gece / 6 Gün",
+      "kapak": "semerkant",
+      "kapak_alt": "Semerkant Registan Meydanı medreseleri",
+      "giris": "İpek Yolu'nun iki efsane şehri: Timur'un başkenti Semerkant'ın mavi kubbeleri ve binlerce yıllık Buhara'nın medreseleri. Ortak tarih ve kültürle bağ kuran, vizesiz ve prestijli bir kültür programı.",
+      "alt_baslik": "Registan'ın ışıklarından Buhara'nın avlularına.",
+      "akis_notu": "Varış Semerkant'a, dönüş Buhara'dan planlanır; iki şehir arası Afrosiyob hızlı treniyle yaklaşık 1,5 saattir. Eylül, iklimin ılıdığı ve gezi için en uygun dönemlerden biridir. Vize: Özbekistan Türk vatandaşlarına vizesizdir.",
+      "gunler": [
+        {
+          "baslik": "İstanbul → Semerkant",
+          "metin": "Semerkant'a varış, Golden Bay Tour ekibi tarafından karşılama ve otele transfer. Akşam Özbek pilavıyla karşılama yemeği ve ışıklandırılmış Registan Meydanı.",
+          "etiket": "Karşılama · Registan",
+          "gorsel": "semerkant-d1",
+          "alt": "Gece ışıklandırılmış Registan Meydanı"
+        },
+        {
+          "baslik": "Semerkant",
+          "metin": "Registan Meydanı'nın üç medresesi, Timur'un türbesi Gur-i Emir, Bibi Hanım Camii ve çini kaplı türbeleriyle Şah-ı Zinde.",
+          "etiket": "UNESCO · Tarih",
+          "gorsel": "semerkant-d2",
+          "alt": "Şah-ı Zinde'nin çini kaplı türbeleri"
+        },
+        {
+          "baslik": "Toplantı & Uluğ Bey",
+          "metin": "Sabah otelde bayi toplantısı veya yeni dönem hedefleri. Öğleden sonra Uluğ Bey Rasathanesi ve Konigil'de geleneksel Semerkant kâğıdı atölyesi.",
+          "etiket": "Toplantı · Kültür",
+          "gorsel": "semerkant-d3",
+          "alt": "Semerkant'ta otel toplantı salonu"
+        },
+        {
+          "baslik": "Semerkant → Buhara",
+          "metin": "Afrosiyob hızlı treniyle Buhara'ya geçiş. Öğleden sonra Poi Kalon Külliyesi, Kalon Minaresi ve kubbeli çarşılar.",
+          "etiket": "Hızlı tren · Buhara",
+          "gorsel": "semerkant-d4",
+          "alt": "Buhara'da Kalon Minaresi"
+        },
+        {
+          "baslik": "Buhara & Gala",
+          "metin": "Ark Kalesi, İsmail Samani Türbesi ve Bahaeddin Nakşibend Külliyesi. Akşam tarihi bir medrese avlusunda Özbek dansları ve kuruma özel ödül töreniyle Golden Bay Gala Night.",
+          "etiket": "Tarih · Gala · Ödül",
+          "gorsel": "semerkant-d5",
+          "alt": "Buhara'da medrese avlusunda gala"
+        },
+        {
+          "baslik": "Buhara → İstanbul",
+          "metin": "Sabah Lyabi Havuz çevresinde dut ağaçları altında çay molası ve son yürüyüş. Uçuş saatine göre havalimanına transfer ve İstanbul'a dönüş.",
+          "etiket": "Çay · Veda",
+          "gorsel": "semerkant-d6",
+          "alt": "Buhara'da Lyabi Havuz çevresi"
+        }
+      ]
+    },
+    {
+      "sayfa": "kasim-2027-tokyo-kyoto.html",
+      "sure": "7 Gece / 8 Gün",
+      "kapak": "kyoto",
+      "kapak_alt": "Kyoto Kiyomizu-dera tapınağı ve sonbahar akçaağaçları",
+      "giris": "Geleceğin şehri Tokyo ile bin yıllık imparatorluk başkenti Kyoto'yu Shinkansen hızlı treniyle birleştiren bir Japonya programı. Kasım'ın serin havasında sonbahar renklerine bürünmüş tapınaklar, bahçeler ve Japon misafirperverliği; top performer grupları için üst segment bir ödül deneyimi.",
+      "alt_baslik": "Neon ışıklardan tapınak bahçelerine.",
+      "akis_notu": "Üç gece Tokyo, dört gece Kyoto. Varış Tokyo'ya, dönüş Osaka Kansai Havalimanı'ndan planlanır; şehirler arası Shinkansen ile yaklaşık iki buçuk saattir. Program, Kyoto'da sonbahar renklerinin en canlı olduğu Kasım'ın ikinci yarısına göre planlanır. Bu dönem Japonya'nın en yoğun sezonudur; otel, Shinkansen grup yerleri ve gala mekânı için erken rezervasyon önerilir. Vize: Japonya Türk vatandaşlarına vizesizdir; seyahat öncesinde ülkeye giriş formunun doldurulması zorunludur.",
+      "gunler": [
+        {
+          "baslik": "İstanbul → Tokyo",
+          "metin": "Tokyo'ya varış, Golden Bay Tour ekibi tarafından karşılama ve otele transfer. Akşam Shinjuku'da kuruma özel ayrılmış bir restoranda Japon mutfağıyla karşılama yemeği.",
+          "etiket": "Karşılama · Shinjuku",
+          "gorsel": "tokyo-d1",
+          "alt": "Tokyo'da Japon restoranında karşılama yemeği"
+        },
+        {
+          "baslik": "Tokyo",
+          "metin": "Asakusa'da Senso-ji Tapınağı ve Nakamise Caddesi, Meiji Tapınağı'nın ormanı ve dünyanın en kalabalık yaya geçidi Shibuya. Akşam serbest.",
+          "etiket": "Şehir · Kültür",
+          "gorsel": "tokyo-d2",
+          "alt": "Asakusa'da Senso-ji Tapınağı"
+        },
+        {
+          "baslik": "Toplantı & Tokyo Manzarası",
+          "metin": "Sabah şehir manzaralı toplantı salonunda bayi toplantısı veya yeni dönem hedefleri. Öğleden sonra Tokyo Skytree'den şehir manzarası ve Ginza'da serbest zaman.",
+          "etiket": "Toplantı · Manzara",
+          "gorsel": "tokyo-d3",
+          "alt": "Tokyo manzaralı toplantı salonu"
+        },
+        {
+          "baslik": "Shinkansen ile Kyoto",
+          "metin": "Hızlı trenle Kyoto'ya yolculuk; hava açıksa yol boyunca Fuji Dağı manzarası. Öğleden sonra Nishiki Çarşısı'nda Kyoto lezzetleri.",
+          "etiket": "Hızlı tren · Fuji",
+          "gorsel": "tokyo-d4",
+          "alt": "Fuji Dağı önünde Shinkansen hızlı treni"
+        },
+        {
+          "baslik": "Fushimi Inari & Gion",
+          "metin": "Binlerce kırmızı torii kapısıyla Fushimi Inari Tapınağı ve tepeye kurulu Kiyomizu-dera. Akşamüstü geleneksel Gion sokaklarında yürüyüş ve çay seremonisi.",
+          "etiket": "UNESCO · Gelenek",
+          "gorsel": "tokyo-d5",
+          "alt": "Fushimi Inari'nin kırmızı torii kapıları"
+        },
+        {
+          "baslik": "Arashiyama",
+          "metin": "Sabah Arashiyama bambu ormanı ve sonbahar renkleriyle Tenryu-ji bahçesi. Öğleden sonra serbest zaman; isteyenler için Nara'ya yarım gün gezi.",
+          "etiket": "Doğa · Bahçe",
+          "gorsel": "tokyo-d6",
+          "alt": "Arashiyama bambu ormanı"
+        },
+        {
+          "baslik": "Serbest Gün & Gala",
+          "metin": "Gün boyu serbest zaman ve alışveriş. Akşam geleneksel bir Kyoto mekânında maiko gösterisi ve kuruma özel ödül töreniyle Golden Bay Gala Night.",
+          "etiket": "Serbest · Gala · Ödül",
+          "gorsel": "tokyo-d7",
+          "alt": "Kyoto'da geleneksel mekânda gala gecesi"
+        },
+        {
+          "baslik": "Kinkaku-ji → İstanbul",
+          "metin": "Sabah kızıl yapraklar arasında Altın Köşk Kinkaku-ji ziyareti. Uçuş saatine göre Kansai Havalimanı'na transfer ve İstanbul'a dönüş.",
+          "etiket": "Veda",
+          "gorsel": "tokyo-d8",
+          "alt": "Kyoto'da Altın Köşk Kinkaku-ji"
+        }
+      ]
+    },
+    {
+      "sayfa": "ekim-2027-nil-cruise.html",
+      "sure": "7 Gece / 8 Gün",
+      "kapak": "nil-cruise",
+      "kapak_alt": "Asvan yakınlarında Nil'de nehir gemisi ve feluka",
+      "esnek_not": "Gemi turlarında belirtilen gemi, güzergâh ve tarih örnek seferdir. Katılımcı sayısı, talep zamanı ve gemideki yer durumuna göre aynı sefer ya da benzer bir gemi, güzergâh veya tarih önerilir.",
+      "giris": "Giza piramitlerinden başlayıp Luksor'dan Asvan'a Nil üzerinde süzülen bir yolculuk: Karnak'ın sütunları, Krallar Vadisi, Edfu ve Kom Ombo tapınakları, Philae ve gün batımında feluka. Ekim'in ılık havasında, tarihin en etkileyici sahnesinde bir ödül programı.",
+      "alt_baslik": "Piramitlerden Philae'ye, Nil üzerinde dört gece.",
+      "akis_notu": "Örnek sefer: Sonesta St. George I. Gemi her pazartesi Luksor'dan kalkar ve dört gecede Asvan'a varır (Luksor → Esna → Edfu → Kom Ombo → Asvan). Ekim 2027 için örnek kalkış: 18 Ekim 2027 pazartesi, varış 22 Ekim 2027 cuma; Ekim'de 4, 11 ve 25 Ekim kalkışları da vardır. Programa birer gece Kahire, Luksor ve Asvan oteli eklenmiştir. Program bu tur veya benzeri bir Nil seferi üzerine kurgulanır; kesin gemi ve tarih talep anındaki müsaitliğe göre netleşir. Vize: Mısır'a girişte sınır kapısında 25 USD karşılığında vize alınır.",
+      "gunler": [
+        {
+          "baslik": "İstanbul → Kahire",
+          "metin": "Kahire'ye varış, Golden Bay Tour ekibi tarafından karşılama ve otele transfer. Akşam Nil kıyısındaki terasta karşılama yemeği.",
+          "etiket": "Karşılama · Nil",
+          "gorsel": "nil-d1",
+          "alt": "Kahire'de Nil kıyısında karşılama yemeği"
+        },
+        {
+          "baslik": "Giza & Büyük Mısır Müzesi",
+          "metin": "Giza piramitleri ve Sfenks, ardından Tutankamon hazinelerinin sergilendiği Büyük Mısır Müzesi. Akşam Luksor'a iç hat uçuşu ve otele yerleşme.",
+          "etiket": "Piramitler · Müze",
+          "gorsel": "nil-d2",
+          "alt": "Giza piramitleri ve Sfenks"
+        },
+        {
+          "baslik": "Gemiye Biniş & Karnak",
+          "metin": "Öğle saatlerinde gemiye biniş. Öğleden sonra Karnak Tapınağı'nın büyük sütunlu salonu ve Luksor Tapınağı. Akşam gemide karşılama yemeği.",
+          "etiket": "Biniş · Tapınak",
+          "gorsel": "nil-d3",
+          "alt": "Karnak Tapınağı'nın sütunlu salonu"
+        },
+        {
+          "baslik": "Batı Yakası",
+          "metin": "İsteyenler için gün doğumunda sıcak hava balonu. Krallar Vadisi, Hatşepsut Tapınağı ve Memnon Heykelleri; ardından Esna'ya seyir.",
+          "etiket": "Balon · Krallar Vadisi",
+          "gorsel": "nil-d4",
+          "alt": "Luksor Batı Yakası üzerinde sıcak hava balonları"
+        },
+        {
+          "baslik": "Gemide Toplantı, Edfu & Kom Ombo",
+          "metin": "Seyir sırasında geminin salonunda bayi toplantısı veya yeni dönem sunumu. Edfu'da Horus Tapınağı ve Nil'e bakan Kom Ombo Tapınağı.",
+          "etiket": "Toplantı · Tapınak",
+          "gorsel": "nil-d5",
+          "alt": "Nil gemisinin salonunda toplantı"
+        },
+        {
+          "baslik": "Asvan & Philae",
+          "metin": "Asvan'a varış. Yüksek Baraj, tekneyle ulaşılan Philae Tapınağı ve Asvan Botanik Bahçesi. Gemide son akşam.",
+          "etiket": "Philae · Asvan",
+          "gorsel": "nil-d6",
+          "alt": "Philae Tapınağı ve Nil"
+        },
+        {
+          "baslik": "Asvan & Gala",
+          "metin": "Kahvaltı sonrası gemiden iniş ve Nil manzaralı otele geçiş. Akşam Nil'e bakan terasta Nübye müziği ve kuruma özel ödül töreniyle Golden Bay Gala Night.",
+          "etiket": "Gala · Ödül",
+          "gorsel": "nil-d7",
+          "alt": "Asvan'da Nil manzaralı terasta gala"
+        },
+        {
+          "baslik": "Feluka & Dönüş",
+          "metin": "Sabah geleneksel feluka ile Elephantine Adası çevresinde kısa yelken gezisi. Uçuş saatine göre havalimanına transfer ve Kahire üzerinden İstanbul'a dönüş.",
+          "etiket": "Feluka · Veda",
+          "gorsel": "nil-d8",
+          "alt": "Asvan'da Nil üzerinde felukalar"
+        }
+      ]
+    },
+    {
+      "sayfa": "kasim-2027-mekong-saigon-angkor.html",
+      "sure": "10 Gece / 11 Gün",
+      "kapak": "mekong",
+      "kapak_alt": "Mekong nehrinde gün batımında koloniyal tarzda nehir gemisi",
+      "giris": "Vietnam'ın enerjik şehri Ho Chi Minh'den başlayıp Mekong deltasının yüzen pazarlarından geçen, Kamboçya'nın başkenti Phnom Penh'e ve oradan Angkor tapınaklarına uzanan bir nehir yolculuğu. Örnek gemimiz koloniyal tarzda butik bir Victoria Mekong nehir gemisi; iki ülke, yedi gece gemide, finalde Angkor Wat'ta gün doğumu ve tapınak manzaralı gala.",
+      "alt_baslik": "Yüzen pazarlardan Angkor'un taş yüzlerine.",
+      "akis_notu": "Örnek sefer: Victoria Mekong Cruises ile Ho Chi Minh – Siem Reap rotası (8 gün / 7 gece). Can Tho → Long Xuyen → Tan Chau → Phnom Penh → Koh Chen → Angkor Ban → Kampong Cham, ardından karayoluyla Siem Reap. Kasım 2027 için örnek kalkış: 3 Kasım 2027, gemiden iniş 10 Kasım 2027; aynı rotada 17–24 Kasım 2027 kalkışı da bulunmaktadır. Programa öncesinde bir gece Ho Chi Minh, sonrasında iki gece Siem Reap konaklaması eklenmiştir. Program bu tur veya benzeri bir Mekong seferi üzerine kurgulanır; kesin gemi, tarih ve program talep anındaki müsaitliğe göre netleşir. Gemide tam pansiyon, yerel içecekler, grup gezileri ve giriş ücretleri dahildir. Uçuşlar İstanbul–Ho Chi Minh ve Siem Reap–İstanbul olarak planlanır. Vize: Vietnam için e-vize gereklidir. Kamboçya için vize gereklidir; seyahat öncesinde e-vize alınabilir ya da sınır kapısında vize işlemi yapılır.",
+      "esnek_not": "Gemi turlarında belirtilen gemi, güzergâh ve tarih örnek seferdir. Katılımcı sayısı, talep zamanı ve gemideki yer durumuna göre aynı sefer ya da benzer bir gemi, güzergâh veya tarih önerilir.",
+      "gunler": [
+        {
+          "baslik": "İstanbul → Ho Chi Minh",
+          "metin": "Ho Chi Minh'e varış, Golden Bay Tour ekibi tarafından karşılama ve otele transfer. Akşam Saigon silueti manzaralı bir çatı terasında Vietnam mutfağıyla karşılama yemeği.",
+          "etiket": "Karşılama · Saigon",
+          "gorsel": "mekong-d1",
+          "alt": "Saigon silueti manzaralı çatı terasında karşılama yemeği"
+        },
+        {
+          "baslik": "Cai Be → Can Tho · Biniş",
+          "metin": "Sabah Mekong deltasına transfer, Cai Be'de öğle yemeği. Saat 16:00'da Can Tho'da gemiye biniş; Hau nehrinde gün batımı seyri, güneyin geleneksel halk müziği eşliğinde hoş geldin yemeği.",
+          "etiket": "Biniş · Gün batımı",
+          "gorsel": "mekong-d2",
+          "alt": "Mekong gemisinin güvertesinde gün batımında grup"
+        },
+        {
+          "baslik": "Long Xuyen Yüzen Pazarı & Tiger Adası",
+          "metin": "Sabah sampan teknesiyle Long Xuyen yüzen pazarı. Öğleden sonra pirinç tarlaları ve meyve bahçeleri arasından Tiger Adası yürüyüşü. Akşam gemide kokteyl yarışması ve eğlence.",
+          "etiket": "Yüzen pazar · Doğa",
+          "gorsel": "mekong-d3",
+          "alt": "Mekong deltasında yüzen pazarda sampan teknesi"
+        },
+        {
+          "baslik": "Tan Chau & Cao Dai Tapınağı",
+          "metin": "Geleneksel kil ocak ustalarının köyü, ardından sampanla yüzen köy gezisi ve renkli Cao Dai tapınağı. Akşam aslan dansı gösterisi ve gemide yemek.",
+          "etiket": "Kültür · Köy",
+          "gorsel": "mekong-d4",
+          "alt": "Mekong deltasında renkli Cao Dai tapınağı"
+        },
+        {
+          "baslik": "Gemide Toplantı → Phnom Penh",
+          "metin": "Gemi Vietnam–Kamboçya sınırını nehirden geçer. Seyir sırasında panoramik salonda bayi toplantısı veya yeni dönem sunumu. Akşamüstü Phnom Penh'e varış, gemide Khmer dans gösterisi.",
+          "etiket": "Toplantı · Seyir",
+          "gorsel": "mekong-d5",
+          "alt": "Nehir gemisinin salonunda Mekong manzaralı toplantı"
+        },
+        {
+          "baslik": "Phnom Penh",
+          "metin": "Cyclo ile Kraliyet Sarayı ve Gümüş Pagoda, ardından Ulusal Müze. Öğleden sonra şehir turu; akşamüstü tarihi Raffles Hotel Le Royal'in Elephant Bar'ında kokteyl.",
+          "etiket": "Başkent · Kültür",
+          "gorsel": "mekong-d6",
+          "alt": "Phnom Penh Kraliyet Sarayı ve cyclo"
+        },
+        {
+          "baslik": "Koh Chen, Oudong & İpek Adası",
+          "metin": "Gümüş ustalarıyla ünlü Koh Chen köyü ve eski kraliyet başkenti Oudong. Öğleden sonra tuk-tuk ile Koh Dach İpek Adası'nda geleneksel ipek dokuma atölyeleri.",
+          "etiket": "Zanaat · Tuk-tuk",
+          "gorsel": "mekong-d7",
+          "alt": "İpek Adası'nda geleneksel dokuma tezgâhı"
+        },
+        {
+          "baslik": "Angkor Ban & Kampong Cham",
+          "metin": "Sabah ayaklı ahşap evleriyle Angkor Ban köyü. Öğleden sonra lotus katlama atölyesi ve Kampong Cham'da nehir kıyısı yürüyüşü. Akşam güvertede kaptanın veda yemeği ve Apsara dansı.",
+          "etiket": "Köy · Veda yemeği",
+          "gorsel": "mekong-d8",
+          "alt": "Gemi güvertesinde mum ışığında veda yemeği"
+        },
+        {
+          "baslik": "Siem Reap & Angkor Gala",
+          "metin": "Kampong Cham'da gemiden iniş ve kırsal Kamboçya'dan karayoluyla Siem Reap'e transfer; öğle yemeği ve otele yerleşme. Akşam ışıklandırılmış tapınak kalıntıları önünde Apsara dansçıları ve kuruma özel ödül töreniyle Golden Bay Gala Night.",
+          "etiket": "Gala · Ödül",
+          "gorsel": "mekong-d9",
+          "alt": "Angkor tapınak kalıntıları önünde mum ışığında gala yemeği"
+        },
+        {
+          "baslik": "Angkor Wat'ta Gün Doğumu",
+          "metin": "Sabah erken saatte Angkor Wat'ta lotus havuzuna yansıyan gün doğumu. Ardından Angkor Wat galerileri ve ağaç köklerinin sardığı Ta Prohm. Öğleden sonra otelde dinlenme veya spa.",
+          "etiket": "UNESCO · Gün doğumu",
+          "gorsel": "mekong-d10",
+          "alt": "Angkor Wat'ta lotus havuzuna yansıyan gün doğumu"
+        },
+        {
+          "baslik": "Bayon → İstanbul",
+          "metin": "Sabah Angkor Thom'un gülümseyen taş yüzleriyle ünlü Bayon tapınağı. Uçuş saatine göre havalimanına transfer ve İstanbul'a dönüş.",
+          "etiket": "Veda",
+          "gorsel": "mekong-d11",
+          "alt": "Bayon tapınağının taş yüzleri"
+        }
+      ]
+    },
+    {
+      "sayfa": "ekim-2027-maskat-umman.html",
+      "sure": "5 Gece / 6 Gün",
+      "kapak": "maskat",
+      "kapak_alt": "Maskat Sultan Kabus Camii",
+      "giris": "Arap yarımadasının en sakin ve zarif başkenti Maskat, dhow teknesiyle yunus ve mercan koyları, tarihi Nizva ve Vahiba çölünün kızıl kumları. Sezonun açıldığı Ekim sonunda, toplantı ile keşfi dengeleyen prestijli bir program.",
+      "alt_baslik": "Beyaz mermerden kızıl kumlara.",
+      "akis_notu": "Konaklama Maskat'ta üç gece, Nizva'da bir gece ve Vahiba çölünde lüks bir kampta bir gece. Program Ekim'in son haftasına göre planlanır; gündüz sıcaklıkları 30°C'nin üzerinde olduğundan geziler sabah erken ve gün batımı saatlerine, öğle saatleri toplantı ve dinlenmeye ayrılır. Uçuşlar İstanbul–Maskat–İstanbul olarak planlanır. Vize: Umman Türk vatandaşlarına vizesizdir.",
+      "gunler": [
+        {
+          "baslik": "İstanbul → Maskat",
+          "metin": "Maskat'a varış, Golden Bay Tour ekibi tarafından karşılama ve sahil otelinize transfer. Akşam deniz kıyısındaki terasta Umman mutfağıyla karşılama yemeği.",
+          "etiket": "Karşılama · Sahil",
+          "gorsel": "maskat-d1",
+          "alt": "Maskat'ta sahil terasında karşılama yemeği"
+        },
+        {
+          "baslik": "Maskat",
+          "metin": "Sultan Kabus Ulu Camii, Kraliyet Opera Binası ve Mutrah Çarşısı; gün batımında Mutrah sahil yolunda yürüyüş.",
+          "etiket": "Şehir · Kültür",
+          "gorsel": "maskat-d2",
+          "alt": "Sultan Kabus Ulu Camii"
+        },
+        {
+          "baslik": "Toplantı & Dhow Turu",
+          "metin": "Sabah deniz manzaralı salonda bayi toplantısı veya yeni dönem hedefleri. Öğleden sonra geleneksel dhow teknesiyle kıyı turu: yunus gözlemi, Bandar Khairan koylarında yüzme ve mercanlar üzerinde şnorkel.",
+          "etiket": "Toplantı · Dhow · Şnorkel",
+          "gorsel": "maskat-d3",
+          "alt": "Maskat'ta deniz manzaralı toplantı salonu",
+          "ek": [
+            {
+              "gorsel": "maskat-ek-dhow",
+              "alt": "Dhow teknesinin yanında yunuslar"
+            },
+            {
+              "gorsel": "maskat-ek-mercan",
+              "alt": "Bandar Khairan'da mercan resifi"
+            },
+            {
+              "gorsel": "maskat-ek-koy",
+              "alt": "Bandar Khairan koyunda yüzme"
+            }
+          ]
+        },
+        {
+          "baslik": "Nizva",
+          "metin": "Hacar Dağları'na doğru yolculuk. Nizva Kalesi, geleneksel çarşı ve hurma bahçeleri; akşam Nizva'da konaklama.",
+          "etiket": "Tarih · Dağlar",
+          "gorsel": "maskat-d4",
+          "alt": "Nizva Kalesi ve hurma bahçeleri"
+        },
+        {
+          "baslik": "Vahiba Çölü & Gala",
+          "metin": "Arazi araçlarıyla Vahiba çölüne geçiş; öğleden sonra geç saatte, gün batımına doğru kum tepelerinde safari. Akşam çöl kampında yıldızların altında Umman müziği ve kuruma özel ödül töreniyle Golden Bay Gala Night.",
+          "etiket": "Çöl · Gala · Ödül",
+          "gorsel": "maskat-d5",
+          "alt": "Vahiba çölünde kamp galası"
+        },
+        {
+          "baslik": "Çölde Gün Doğumu → İstanbul",
+          "metin": "Kum tepelerinde gün doğumu ve kahvaltı. Maskat Havalimanı'na transfer (yaklaşık üç saat) ve İstanbul'a dönüş.",
+          "etiket": "Gün doğumu · Veda",
+          "gorsel": "maskat-d6",
+          "alt": "Vahiba çölünde gün doğumu"
+        }
+      ]
+    }
+  ]
+}

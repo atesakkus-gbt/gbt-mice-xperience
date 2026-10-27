@@ -1,0 +1,431 @@
+{{HEAD}}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&display=swap">
+<link rel="preload" as="image" href="img/kuala-lumpur.webp" type="image/webp">
+<style>
+/* Layout: açık zeminli yıllık planlayıcı. Hero solda mesaj + sağda üçlü görsel mozaik; takvim ay satırları (solda ay etiketi, sağda iki rota). */
+:root{
+  --paper:#FCFAF6; --surface:#FFFFFF; --cream:#F5F0E6; --ink:#1A2233; --muted:#5E6573;
+  --navy:#14213D; --gold:#AE8739; --gold-soft:#E7D6AA; --brand:#C29A69;
+  --line:#E6DFD1; --track:#EFE9DC; --shadow:rgba(20,33,61,.08);
+  --display:"Newsreader",Georgia,"Times New Roman",serif;
+  --body:"Figtree","Segoe UI",system-ui,sans-serif;
+  --wrap:1180px; --r:18px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 16px/1.6 var(--body);-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%;height:auto}
+h1,h2,h3{font-family:var(--display);font-weight:500;color:var(--navy);text-wrap:balance;margin:0}
+p{margin:0}
+.wrap{width:100%;max-width:calc(var(--wrap) + 2*max(16px,env(safe-area-inset-left,0px)));margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+.eyebrow{font:600 12px/1.2 var(--body);letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.lead{font-size:18px;color:var(--muted);max-width:62ch}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 22px;border-radius:999px;font:600 15px/1 var(--body);border:1px solid var(--navy);transition:transform .18s,background .18s,color .18s}
+.btn:hover{transform:translateY(-1px)}
+.btn-navy{background:var(--navy);color:#fff}
+.btn-gold{background:var(--gold);border-color:var(--gold);color:#fff}
+.btn-line{background:transparent;color:var(--navy)}
+.btn-line:hover{background:var(--navy);color:#fff}
+:focus-visible{outline:3px solid var(--brand);outline-offset:3px}
+
+/* üst bilgi + başlık */
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:var(--paper)}
+.topbar{background:var(--cream);border-bottom:1px solid var(--line);font-size:13px;color:var(--muted)}
+.topbar .wrap{display:flex;justify-content:space-between;gap:16px;padding-block:8px;flex-wrap:wrap}
+.topbar .motto{font-family:var(--display);font-style:italic;color:var(--brand);font-size:14px}
+.topbar .contact{display:flex;gap:20px;flex-wrap:wrap}
+.header{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:rgba(252,250,246,.94);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:18px;padding-block:10px}
+.logo{width:auto;height:66px}
+.navlinks{display:flex;align-items:center;gap:26px;font-size:15px;font-weight:500}
+.navlinks a:not(.btn):hover{color:var(--gold)}
+.navlinks .btn{min-height:42px;padding:0 18px;font-size:14px}
+
+/* hero */
+.hero{padding-block:48px 28px}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.08fr);gap:48px;align-items:center}
+.hero-copy{display:grid;gap:22px}
+.hero h1{font-size:clamp(46px,6.4vw,84px);line-height:.98;letter-spacing:-.025em}
+.hero h1 em{font-style:italic;color:var(--gold)}
+.hero .lead{font-size:19px}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap}
+.hero-facts{display:flex;gap:0;border-top:1px solid var(--line);padding-top:18px;margin-top:6px;flex-wrap:wrap}
+.fact{padding-right:26px;margin-right:26px;border-right:1px solid var(--line)}
+.fact:last-child{border-right:0;margin-right:0;padding-right:0}
+.fact b{display:block;font:500 34px/1 var(--display);color:var(--navy);font-variant-numeric:tabular-nums}
+.fact span{font-size:13px;color:var(--muted)}
+.mosaic{display:grid;grid-template-columns:1.35fr 1fr;grid-template-rows:1fr 1fr;gap:12px;aspect-ratio:1.18/1;max-width:100%}
+.mosaic figure{margin:0;border-radius:var(--r);overflow:hidden;position:relative;background:var(--track)}
+.mosaic figure:first-child{grid-row:1/3}
+.mosaic img{width:100%;height:100%;object-fit:cover}
+.mosaic figcaption{position:absolute;left:12px;bottom:12px;background:rgba(252,250,246,.92);color:var(--navy);font:600 12px/1 var(--body);padding:8px 11px;border-radius:999px}
+
+/* bölümler */
+.section{padding-block:84px}
+.section-head{display:grid;gap:14px;margin-bottom:36px;max-width:780px}
+.section-head h2{font-size:clamp(34px,4.4vw,54px);line-height:1.04;letter-spacing:-.02em}
+
+/* öne çıkanlar */
+.featured{padding-block:40px 84px}
+.feat-head{display:flex;justify-content:space-between;align-items:end;gap:20px;flex-wrap:wrap;margin-bottom:26px}
+.feat-head h2{font-size:clamp(30px,3.6vw,44px);line-height:1.05}
+.feat-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.feat{background:var(--surface);border:1px solid var(--line);border-radius:22px;overflow:hidden;display:flex;flex-direction:column}
+.feat .img{aspect-ratio:16/9;background:var(--track);overflow:hidden}
+.feat .img img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.feat:hover .img img{transform:scale(1.03)}
+.feat-body{padding:24px 26px 26px;display:grid;gap:10px;flex:1;align-content:start}
+.feat-body h3{font-size:32px;line-height:1.05}
+.feat-body p{color:var(--muted)}
+.feat-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:8px}
+.feat-actions .btn{min-height:42px;font-size:14px;padding:0 18px}
+
+/* değer */
+.values{background:var(--surface);border-block:1px solid var(--line)}
+.value-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0}
+.value{padding:6px 32px;border-left:1px solid var(--line);display:grid;gap:10px;align-content:start}
+.value:first-child{border-left:0;padding-left:0}
+.value h3{font-size:26px}
+.value p{color:var(--muted)}
+
+/* kategoriler */
+.family-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.family{text-align:left;font:inherit;color:inherit;cursor:pointer;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:24px;display:grid;gap:10px;align-content:start;transition:border-color .18s,transform .18s}
+.family:hover{border-color:var(--gold);transform:translateY(-2px)}
+.family h3{font-size:24px}
+.family p{color:var(--muted);font-size:14.5px}
+.family .go{font-size:13px;font-weight:600;color:var(--gold)}
+.family .count{font:500 13px/1 var(--body);color:var(--muted)}
+
+/* takvim */
+.calendar{background:var(--cream);border-top:1px solid var(--line)}
+.cal-tools{display:grid;gap:16px;margin-bottom:12px;position:sticky;top:calc(env(safe-area-inset-top,0px) + 78px);z-index:20;background:var(--cream);padding-block:12px;border-bottom:1px solid var(--line)}
+.strip,.filters{display:flex;gap:8px;overflow-x:auto;scrollbar-width:thin;padding-bottom:2px}
+.strip a{flex:0 0 auto;padding:8px 12px;border-radius:10px;border:1px solid var(--line);background:var(--surface);font-size:13px;font-weight:500;line-height:1.15;text-align:center;font-variant-numeric:tabular-nums}
+.strip a small{display:block;font-size:10.5px;color:var(--muted)}
+.strip a.is-now{border-color:var(--gold);background:var(--gold-soft)}
+.chip{flex:0 0 auto;appearance:none;border:1px solid #D8CEBC;background:var(--surface);color:var(--navy);padding:9px 15px;border-radius:999px;font:600 13px/1 var(--body);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--navy);border-color:var(--navy);color:#fff}
+.month{display:grid;grid-template-columns:210px minmax(0,1fr);gap:28px;padding-block:34px;border-bottom:1px solid var(--line)}
+.month-label{display:grid;gap:4px;align-content:start;position:sticky;top:210px;align-self:start}
+.month-label .m{font:500 40px/1 var(--display);color:var(--navy)}
+.month-label .y{font:500 15px/1 var(--body);color:var(--muted);font-variant-numeric:tabular-nums}
+.month-label .badge{justify-self:start;margin-top:8px;font:700 11px/1 var(--body);letter-spacing:.08em;text-transform:uppercase;padding:6px 9px;border-radius:999px;background:var(--gold);color:#fff}
+.routes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.route{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;display:flex;flex-direction:column;transition:box-shadow .2s,transform .2s}
+.route:hover{box-shadow:0 14px 34px var(--shadow);transform:translateY(-2px)}
+.route .img{aspect-ratio:16/10;background:var(--track);overflow:hidden;margin:0}
+.route .img img{width:100%;height:100%;object-fit:cover}
+.route-body{padding:18px 20px 20px;display:grid;gap:6px;flex:1;align-content:start}
+.fam{font:600 11px/1.2 var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+.route h3{font-size:25px;line-height:1.1}
+.route p{color:var(--muted);font-size:15px}
+.route-foot{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-top:10px;padding-top:12px;border-top:1px solid var(--track)}
+.tag{font-size:12px;font-weight:600;color:var(--navy);background:var(--track);border-radius:999px;padding:6px 10px}
+.more{font-size:14px;font-weight:600;color:var(--navy);border-bottom:1px solid var(--gold);padding-bottom:1px}
+.more:hover{color:var(--gold)}
+.more.ask{color:var(--muted);border-bottom-color:var(--line)}
+.month.is-empty,.route.is-off{display:none}
+.mid-cta{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;margin-block:28px;padding:24px 28px;border-radius:var(--r);background:var(--surface);border:1px solid var(--gold-soft)}
+.mid-cta strong{font:500 24px/1.2 var(--display);color:var(--navy)}
+.no-results{display:none;padding:30px 0;color:var(--muted)}
+
+/* özel tarih */
+.special{background:var(--gold-soft)}
+.special .eyebrow{color:#7A5C22}
+.special-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.sp{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);background:var(--paper);border-radius:var(--r);overflow:hidden}
+.sp .img{margin:0;background:var(--track);min-height:220px}
+.sp .img img{width:100%;height:100%;object-fit:cover}
+.sp-body{padding:22px;display:grid;gap:8px;align-content:center}
+.sp-date{font:600 12px/1 var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+.sp h3{font-size:26px;line-height:1.1}
+.sp p{color:var(--muted);font-size:14.5px}
+
+/* çözüm */
+.solution-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:56px;align-items:center}
+.solution-img{margin:0;border-radius:22px;overflow:hidden;aspect-ratio:4/4.4;background:var(--track)}
+.solution-img img{width:100%;height:100%;object-fit:cover}
+.checks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 24px;margin-block:26px}
+.check{padding:12px 0;border-top:1px solid var(--line);font-size:15px;display:flex;gap:10px;align-items:baseline}
+.check::before{content:"";flex:0 0 7px;height:7px;border-radius:50%;background:var(--gold);transform:translateY(-1px)}
+
+/* form */
+.cta{background:var(--cream);border-top:1px solid var(--line)}
+.cta-grid{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:48px;align-items:start}
+.cta-copy{display:grid;gap:18px}
+.cta-copy h2{font-size:clamp(34px,4vw,50px);line-height:1.05}
+.contact-list{display:grid;gap:12px;padding-top:18px;border-top:1px solid var(--line)}
+.contact-list div{display:grid;gap:2px}
+.contact-list span{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.contact-list b{font:500 21px/1.25 var(--display);color:var(--navy);user-select:all}
+.form-card{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:12px;box-shadow:0 16px 40px var(--shadow)}
+.form-card iframe{display:block;width:100%;height:700px;border:0;border-radius:14px;background:var(--surface)}
+.form-foot{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin:12px 8px 4px}
+.form-note{font-size:13px;color:var(--muted)}
+.form-open{min-height:40px;font-size:13px;padding:0 16px}
+
+/* footer */
+footer{background:var(--surface);border-top:1px solid var(--line);padding-block:30px;font-size:13px;color:var(--muted)}
+footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+footer .logo{height:52px}
+footer .motto{font:italic 500 18px/1.2 var(--display);color:var(--brand)}
+
+.sticky-cta{display:none}
+
+@media (max-width:980px){
+  .hero-grid,.solution-grid,.cta-grid{grid-template-columns:minmax(0,1fr)}
+  .family-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .special-grid{grid-template-columns:minmax(0,1fr)}
+  .month{grid-template-columns:minmax(0,1fr);gap:16px}
+  .month-label{position:static;grid-auto-flow:column;justify-content:start;align-items:baseline;gap:10px}
+  .month-label .badge{margin-top:0}
+  .navlinks a:not(.btn){display:none}
+  .solution-img{aspect-ratio:16/10}
+}
+@media (max-width:760px){
+  .section{padding-block:60px}
+  .value-grid{grid-template-columns:minmax(0,1fr);gap:22px}
+  .value{border-left:0;padding:0}
+  .feat-grid,.routes{grid-template-columns:minmax(0,1fr)}
+  .topbar .motto{display:none}
+  .topbar .wrap{justify-content:center}
+  .logo{height:52px}
+  .hero{padding-block:30px 10px}
+  .cal-tools{top:calc(env(safe-area-inset-top,0px) + 66px)}
+  .sticky-cta{display:block;position:fixed;left:0;right:0;bottom:0;z-index:70;padding:10px max(16px,env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));background:linear-gradient(to top,var(--paper) 60%,rgba(252,250,246,0))}
+  .sticky-cta a{display:flex;justify-content:center;align-items:center;min-height:50px;border-radius:999px;background:var(--gold);color:#fff;font-weight:700}
+  body{padding-bottom:76px}
+  .form-card iframe{height:820px}
+}
+@media (max-width:560px){
+  .family-grid,.checks{grid-template-columns:minmax(0,1fr)}
+  .sp{grid-template-columns:minmax(0,1fr)}
+  .sp .img{min-height:0;aspect-ratio:16/9}
+  .mosaic{aspect-ratio:1/1}
+  .fact{padding-right:16px;margin-right:16px}
+  .fact b{font-size:28px}
+  .navlinks .btn{display:none}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none!important;animation:none!important}
+}
+.topbar .contact a,.contact-list b a,footer a{color:inherit;text-decoration:none}
+.topbar .contact a:hover,.contact-list b a:hover,footer a:hover{text-decoration:underline;text-underline-offset:3px}
+.contact-list b{user-select:auto}
+</style>
+{{BODY_OPEN}}
+<div class="topbar"><div class="wrap">
+  <span class="motto">Siz hayal edin, biz yapalım.</span>
+  <span class="contact"><a href="mailto:event@goldenbaytour.com.tr?subject=MICE%20Xperience%20Global%20%E2%80%93%20Program%20talebi">event@goldenbaytour.com.tr</a><a href="tel:+908502023901">+90 850 202 3901</a></span>
+</div></div>
+<header class="header"><div class="wrap nav">
+  <a href="#top" aria-label="MICE Xperience Global ana sayfa"><img class="logo" src="img/logo-gbt-mice.png" width="440" height="395" alt="Golden Bay Tour Corporate MICE"></a>
+  <nav class="navlinks" aria-label="Sayfa bölümleri">
+    <a href="#xperience">Neden Xperience?</a>
+    <a href="#rotalar">Rotalar</a>
+    <a href="#ozel">Özel Tarihler</a>
+    <a class="btn btn-navy" href="#teklif">Teklif İste</a>
+  </nav>
+</div></header>
+
+<main id="top">
+<section class="hero"><div class="wrap hero-grid">
+  <div class="hero-copy">
+    <div class="eyebrow">MICE Xperience Global · Yurtdışı programlar</div>
+    <h1>Başarıyı <em>yolculuğa</em> dönüştürün.</h1>
+    <p class="lead">Bayi motivasyonu, ödüllendirme seyahatleri, kick-off toplantıları ve satış başarıları için her ay iki yeni yurtdışı rotası. <b>MICE Xperience Global</b> takvimini keşfedin.</p>
+    <div class="hero-actions">
+      <a class="btn btn-navy" href="#rotalar">Rotaları Keşfedin</a>
+      <a class="btn btn-line" href="#teklif">Kuruma Özel Program İsteyin</a>
+    </div>
+    <div class="hero-facts" aria-label="Takvim özeti">
+      <div class="fact"><b data-stat="months">{{STAT_MONTHS}}</b><span>aylık takvim</span></div>
+      <div class="fact"><b data-stat="programs">{{STAT_PROGRAMS}}</b><span>aktif program</span></div>
+      <div class="fact"><b>4</b><span>program kategorisi</span></div>
+    </div>
+  </div>
+  <div class="mosaic">
+    <figure><img src="img/kuala-lumpur.webp" width="1200" height="750" alt="Kuala Lumpur Petronas Kuleleri ve Langkawi sahili" fetchpriority="high"><figcaption>Kuala Lumpur & Langkawi</figcaption></figure>
+    <figure><img src="img/maldivler-sm.webp" width="640" height="400" alt="Maldivler su üstü villaları"><figcaption>Maldivler</figcaption></figure>
+    <figure><img src="img/rio-sm.webp" width="640" height="400" alt="Rio de Janeiro, Kurtarıcı İsa heykeli"><figcaption>Rio de Janeiro</figcaption></figure>
+  </div>
+</div></section>
+
+<section class="featured" aria-labelledby="feat-title"><div class="wrap">
+  <div class="feat-head">
+    <div style="display:grid;gap:10px"><div class="eyebrow" id="feat-kicker">{{FEAT_KICKER}}</div><h2 id="feat-title">Öne çıkan rotalar</h2></div>
+    <a class="more" href="#rotalar">Tüm takvimi görün →</a>
+  </div>
+  <div class="feat-grid" id="feat-grid">{{FEATURED}}</div>
+</div></section>
+
+<section class="section values" id="xperience"><div class="wrap">
+  <div class="section-head">
+    <div class="eyebrow">MICE Xperience Global yaklaşımı</div>
+    <h2>Başarı sadece ödüllendirilmez. Hatırlanır.</h2>
+    <p class="lead">Doğru tasarlanmış bir program; markanızla kurulan ilişkinin güçlendiği, ortak başarıların kutlandığı ve yeni hedefler için motivasyonun yükseldiği bir deneyime dönüşür.</p>
+  </div>
+  <div class="value-grid">
+    <div class="value"><h3>Bayi bağlılığı</h3><p>İş ortaklarınızla ilişkiyi toplantı salonunun dışına taşıyan, ortak hafıza yaratan programlar.</p></div>
+    <div class="value"><h3>Satış motivasyonu</h3><p>Performansı görünür kılan, başarıyı somut bir ödüle dönüştüren ve yeni hedefleri destekleyen kurgular.</p></div>
+    <div class="value"><h3>Marka deneyimi</h3><p>Karşılama masasından gala gecesine kadar markanızın değerlerini yolculuğun içine taşıyan tasarım.</p></div>
+  </div>
+</div></section>
+
+<section class="section" aria-labelledby="fam-title"><div class="wrap">
+  <div class="section-head">
+    <div class="eyebrow">Şirketinize uygun programlar</div>
+    <h2 id="fam-title">Dört program kategorisi</h2>
+    <p class="lead">Bir kategori seçin; takvim yalnızca o kategorideki rotaları göstersin.</p>
+  </div>
+  <div class="family-grid">
+    <button type="button" class="family" data-pick="yakin"><h3>Yakın & Dinamik</h3><p>Saraybosna, Belgrad, Bakü, Tiflis, Budva ve Balkan rotaları. Kısa uçuş, hızlı planlama.</p><span class="count" data-count="yakin"></span><span class="go">Rotaları göster →</span></button>
+    <button type="button" class="family" data-pick="prestij"><h3>Prestij & Keşif</h3><p>Dubai, Abu Dabi, Doha, Bahreyn, Marakeş, Tunus, Semerkant ve Maskat. Yüksek algılı ödüllendirme.</p><span class="count" data-count="prestij"></span><span class="go">Rotaları göster →</span></button>
+    <button type="button" class="family" data-pick="premium"><h3>Premium & VIP</h3><p>Kuala Lumpur, Rio, Phuket, Maldivler, Şarm El Şeyh, Zanzibar ve Japonya. Top performer grupları için.</p><span class="count" data-count="premium"></span><span class="go">Rotaları göster →</span></button>
+    <button type="button" class="family" data-pick="cruise"><h3>Cruise Xperience</h3><p>İstanbul kalkışlı helal konsept gemi, Tuna, Nil ve Mekong nehirleri, Ege, Adriyatik ve Asya. Networking, gala ve çoklu destinasyon tek organizasyonda.</p><span class="count" data-count="cruise"></span><span class="go">Rotaları göster →</span></button>
+  </div>
+</div></section>
+
+<section class="section calendar" id="rotalar"><div class="wrap">
+  <div class="section-head">
+    <div class="eyebrow">MICE Xperience Global takvimi</div>
+    <h2>Her ay iki yeni yurtdışı rotası</h2>
+    <p class="lead">Takvim her ay yenilenir: biten ayın rotaları kalkar, yeni ayın rotaları eklenir. Her program kurumunuzun hedeflerine göre yeniden tasarlanır.</p>
+  </div>
+  <div class="cal-tools">
+    <nav class="strip" aria-label="Aya git">{{STRIP}}</nav>
+    <div class="filters" role="group" aria-label="Kategoriye göre filtrele">
+      <button type="button" class="chip" data-filter="all" aria-pressed="true">Tümü</button>
+      <button type="button" class="chip" data-filter="yakin" aria-pressed="false">Yakın & Dinamik</button>
+      <button type="button" class="chip" data-filter="prestij" aria-pressed="false">Prestij & Keşif</button>
+      <button type="button" class="chip" data-filter="premium" aria-pressed="false">Premium & VIP</button>
+      <button type="button" class="chip" data-filter="cruise" aria-pressed="false">Cruise</button>
+    </div>
+  </div>
+  <div id="months">{{CALENDAR}}</div>
+</div></section>
+
+<section class="section special" id="ozel"><div class="wrap">
+  <div class="section-head">
+    <div class="eyebrow">Takvime bağlı özel programlar</div>
+    <h2>Özel tarih programları</h2>
+    <p class="lead">Belirli tarihlere bağlı, daha uzun planlama ve hazır ABD vizesi gerektiren ürünleri ayrı sunuyoruz.</p>
+  </div>
+  <div class="special-grid">{{SPECIAL}}</div>
+</div></section>
+
+<section class="section"><div class="wrap solution-grid">
+  <figure class="solution-img"><img src="img/toplanti-sm.webp" srcset="img/toplanti-sm.webp 640w, img/toplanti.webp 1200w" sizes="(max-width:980px) 92vw, 560px" width="640" height="704" loading="lazy" alt="Kurumsal toplantı salonunda bayi sunumu"></figure>
+  <div>
+    <div class="eyebrow">Kuruma özel program tasarımı</div>
+    <h2 style="font-size:clamp(34px,4.2vw,52px);line-height:1.05;margin-top:12px">Takvim başlangıç noktasıdır.</h2>
+    <p class="lead" style="margin-top:16px">Golden Bay Tour MICE ekibi seçtiğiniz destinasyonu şirketinizin hedeflerine göre yeniden tasarlar. Toplantıdan ödül gecesine kadar her temas noktası aynı kurumsal hikâyeye bağlanır.</p>
+    <div class="checks">
+      <div class="check">Toplantı & kick-off</div><div class="check">Gala & ödül töreni</div>
+      <div class="check">Team building</div><div class="check">Gastronomi deneyimleri</div>
+      <div class="check">Uçuş & konaklama</div><div class="check">Transfer & saha operasyonu</div>
+      <div class="check">Cruise organizasyonları</div><div class="check">Marka görünürlüğü</div>
+    </div>
+    <a class="btn btn-gold" href="#teklif">Programınızı Birlikte Tasarlayalım</a>
+  </div>
+</div></section>
+
+<section class="section cta" id="teklif"><div class="wrap cta-grid">
+  <div class="cta-copy">
+    <div class="eyebrow">Kuruma özel teklif</div>
+    <h2>Bayilerinizin hatırlayacağı bir program tasarlayalım.</h2>
+    <p class="lead">Katılımcı sayınızı, yaklaşık seyahat döneminizi ve programdan beklentinizi paylaşın. MICE ekibimiz size uygun rota ve program alternatifleriyle dönüş yapsın.</p>
+    <div class="contact-list">
+      <div><span>E-posta</span><b><a href="mailto:event@goldenbaytour.com.tr?subject=MICE%20Xperience%20Global%20%E2%80%93%20Program%20talebi">event@goldenbaytour.com.tr</a></b></div>
+      <div><span>Telefon</span><b><a href="tel:+908502023901">+90 850 202 3901</a></b></div>
+      <div><span>Web</span><b><a href="https://kurumsal.goldenbaytour.com" target="_blank" rel="noopener">kurumsal.goldenbaytour.com</a></b></div>
+    </div>
+  </div>
+  <div class="form-card">
+    <iframe src="https://eu.bigin.online/org20113131990/forms/mice-xperience" title="MICE Xperience Global teklif formu" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="clipboard-write"></iframe>
+    <div class="form-foot"><p class="form-note">Talebiniz doğrudan Golden Bay Tour MICE ekibine iletilir.</p><a class="btn btn-line form-open" href="https://eu.bigin.online/org20113131990/forms/mice-xperience" target="_blank" rel="noopener">Form görünmüyorsa yeni sekmede açın ↗</a></div>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <img class="logo" src="img/logo-gbt-mice.png" width="440" height="395" alt="Golden Bay Tour Corporate MICE" loading="lazy">
+  <span class="motto">Kurumsal Seyahatin Gücü</span>
+  <span><a href="mailto:event@goldenbaytour.com.tr?subject=MICE%20Xperience%20Global%20%E2%80%93%20Program%20talebi">event@goldenbaytour.com.tr</a> · <a href="tel:+908502023901">+90 850 202 3901</a> · <a href="https://kurumsal.goldenbaytour.com" target="_blank" rel="noopener">kurumsal.goldenbaytour.com</a></span>
+</div></footer>
+<div class="sticky-cta"><a href="#teklif">Kuruma Özel Teklif İste</a></div>
+
+<script id="mx-data" type="application/json">{{DATA}}</script>
+<script>
+(function(){
+  var AYLAR=["Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık"];
+  var AILE={yakin:"Yakın & Dinamik",prestij:"Prestij & Keşif",premium:"Premium & VIP",cruise:"Cruise Xperience"};
+  var data; try{data=JSON.parse(document.getElementById("mx-data").textContent);}catch(e){return;}
+
+  // Bugünün ayı (İstanbul saati). Sadece test için: adres sonuna #tarih-test-2027-03 eklenirse o ay "bugün" sayılır. #ay-... bağlantıları yalnızca o aya kaydırır.
+  function istanbulYM(){
+    try{
+      var p=new Intl.DateTimeFormat("en-CA",{timeZone:"Europe/Istanbul",year:"numeric",month:"2-digit"}).formatToParts(new Date());
+      var y=p.find(function(x){return x.type==="year"}).value, m=p.find(function(x){return x.type==="month"}).value;
+      return y+"-"+m;
+    }catch(e){var d=new Date();return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0");}
+  }
+  var now=istanbulYM();
+  var h=(location.hash||"").match(/^#tarih-test-(\d{4}-\d{2})$/); if(h) now=h[1];
+  function label(ym){var a=ym.split("-");return AYLAR[+a[1]-1]+" "+a[0];}
+
+  // Geçmiş ayları kaldır
+  document.querySelectorAll("[data-month]").forEach(function(el){ if(el.getAttribute("data-month")<now) el.remove(); });
+  var live=data.programlar.filter(function(p){return p.ay>=now;});
+  var months=[]; live.forEach(function(p){ if(months.indexOf(p.ay)<0) months.push(p.ay); });
+
+  var nowStrip=document.querySelector('.strip a[data-month="'+now+'"]'); if(nowStrip) nowStrip.classList.add("is-now");
+  var nowLabel=document.querySelector('.month[data-month="'+now+'"] .month-label');
+  if(nowLabel){var b=document.createElement("span");b.className="badge";b.textContent="Bu ay";nowLabel.appendChild(b);}
+
+  var target0=(location.hash||"").match(/^#ay-(\d{4}-\d{2})$/);
+  if(target0&&!document.getElementById("ay-"+target0[1])){var r=document.getElementById("rotalar"); if(r) r.scrollIntoView();}
+  else if(target0){var t=document.getElementById("ay-"+target0[1]); if(t) setTimeout(function(){t.scrollIntoView();},0);}
+
+  // Sayılar
+  var sm=document.querySelector('[data-stat="months"]'), sp=document.querySelector('[data-stat="programs"]');
+  if(sm) sm.textContent=months.length;
+  if(sp) sp.textContent=live.length+data.ozel.filter(function(p){return p.ay>=now;}).length;
+  Object.keys(AILE).forEach(function(k){var c=document.querySelector('[data-count="'+k+'"]'); if(c) c.textContent=live.filter(function(p){return p.aile===k;}).length+" rota takvimde";});
+
+  // Öne çıkanlar: bir sonraki ayın rotaları (yoksa ilk görünen ay)
+  var target=months.filter(function(m){return m>now;})[0]||months[0];
+  var grid=document.getElementById("feat-grid"), kick=document.getElementById("feat-kicker");
+  if(target&&grid&&grid.getAttribute("data-month-feat")!==target){
+    var esc=function(s){return String(s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});};
+    grid.innerHTML=live.filter(function(p){return p.ay===target;}).map(function(p){
+      var href=p.hazir?p.sayfa:"#teklif", txt=p.hazir?"Programı İncele":"Bu Rota İçin Teklif İste";
+      return '<article class="feat"><div class="img"><img src="img/'+p.gorsel+'.webp" width="1200" height="750" loading="lazy" alt="'+esc(p.alt)+'"></div><div class="feat-body"><div class="fam">'+esc(AILE[p.aile])+'</div><h3>'+esc(p.baslik)+'</h3><p>'+esc(p.ozet||p.slogan)+'</p><div class="feat-actions">'+(p.hazir?'<a class="btn btn-navy" href="'+esc(href)+'">'+txt+'</a><a class="btn btn-line" href="#teklif">Teklif İste</a>':'<a class="btn btn-navy" href="#teklif">'+txt+'</a>')+'</div></div></article>';
+    }).join("");
+  }
+  if(kick&&target) kick.textContent=label(target)+" · "+(target>now?"gelecek ayın rotaları":"bu ayın rotaları");
+
+  // Filtre
+  var chips=[].slice.call(document.querySelectorAll(".chip"));
+  function apply(f){
+    chips.forEach(function(c){c.setAttribute("aria-pressed",String(c.getAttribute("data-filter")===f));});
+    document.querySelectorAll(".month").forEach(function(m){
+      var any=false;
+      m.querySelectorAll(".route").forEach(function(r){var on=f==="all"||r.getAttribute("data-family")===f;r.classList.toggle("is-off",!on);if(on)any=true;});
+      m.classList.toggle("is-empty",!any);
+    });
+    document.querySelectorAll(".strip a").forEach(function(a){
+      var m=document.querySelector('.month[data-month="'+a.getAttribute("data-month")+'"]');
+      a.hidden=!m||m.classList.contains("is-empty");
+    });
+  }
+  chips.forEach(function(c){c.addEventListener("click",function(){apply(c.getAttribute("data-filter"));});});
+  document.querySelectorAll("[data-pick]").forEach(function(b){b.addEventListener("click",function(){apply(b.getAttribute("data-pick"));document.getElementById("rotalar").scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"});});});
+})();
+</script>
+{{BODY_CLOSE}}
