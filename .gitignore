@@ -3,3 +3,5 @@ dist-artifact.html
 tek/
 onizleme/
 __pycache__/
+dist-tr/
+ONIZLEME-*.html
